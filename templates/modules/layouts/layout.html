@@ -163,10 +163,13 @@
     <!--  https://raphamorim.io/waterfall.js/  应该是这个 还有相关的 js 代码 是否可以调整-->
     <script th:src="${assets_link + '/libs/waterfall/waterfall.min.js'}"></script>
     
+
+    
     <!-- 获取主色 https://lokeshdhakar.com/projects/color-thief/ -->
     <!--<script th:src="@{/assets/libs/color-thief/color-thief.umd.js}"></script>-->
     <script th:src="${assets_link + '/libs/fast-average-color/index.browser.min.js'}"></script>
-    
+    <script th:src="${assets_link + '/js/index.js'}"></script>
+ 
     <script th:src="${assets_link + '/libs/view-image/view-image.min.js'}"></script>
     
     <link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
@@ -177,6 +180,10 @@
     <script th:src="${assets_link + '/libs/aplayer/Meting2.min.js'}"></script>
     
     <script th:src="${assets_link + '/libs/pjax/pjax.min.js'}"></script>
+
+
+    <script th:src="${assets_link + '/libs/swiper/swiper-bundle.min.js'}"></script> 
+    <link rel="stylesheet" th:href="@{/assets/libs/swiper/swiper-bundle.min.css}" />
     
     <!-- swiper 在瞬间滚动时会使用 -->
     <script th:if="${theme.config.top.moment}" data-pjax

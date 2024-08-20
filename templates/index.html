@@ -8,8 +8,11 @@
                 _excerpt = ${site.seo.description},
                 _type = 'website')}"></th:block>
 </th:block>
+
 <th:block th:fragment="content">
-    
+
+
+
     <div class="page" id="body-wrap">
         <!-- 头部导航栏 -->
         <header th:class="${theme.config.top.above.enable_above ? 'full_page' : 'not-top-img'}" id="page-header">
@@ -45,6 +48,75 @@
             <div th:replace="~{modules/aside :: aside(${theme.config.sidebar.widgetss.indexWidget})}"></div>
         </main>
         <!-- 底部 -->
+        <footer class="contact">
+            <h6 class="contact text-white uppercase">联系我们</h6>
+            <div class="content">
+                <div class="divider"></div>
+                <div class="contact_div">
+                 <ul><p> 地 址：长沙市XXX区XXXX路XXXXX号 &nbsp;邮 编：XXXXXXX<br>联系电话：15489654321 &nbsp;E-mail：1308859654@qq.com<br></p></ul> 
+                  <ul>
+                    <div class="contact_div">
+                      <ul style="">
+                        <img class="erweima" th:src="@{/assets/images/OIP-C.jpg}" />公众号
+                      </ul>
+                      <ul>
+                        <img class="erweima" th:src="@{/assets/images/OIP-C.jpg}" />公众号
+                      </ul>
+                   
+                  </div>
+                </ul>
+                </div>
+                
+            </div>
+        </footer>
+
+      
+       
+          <div class="footer">
+            <h6 class="text-white uppercase">友情链接</h6>
+            <div class="foot_nav">
+                    |
+                <a 
+              href="https://www.cdstm.cn/">
+                        中国数字科技馆
+                    </a>
+                    |
+                 <a class="u u-C" href="https://www.oscca.gov.cn/">
+                        国家密码管理局
+                    </a>
+                    |
+                 <a class="u u-C" href="http://www.hnfnu.edu.cn/">
+                        湖南第一师范学院
+                    </a>
+                    |
+                    <a class="u u-C" href="http://people.guoliancenter.com/index">
+                     国链安可人才培养基地
+                  </a>
+                  |
+                  <a class="u u-C" href="http://www.hunan.gov.cn/">
+                    湖南省人民政府
+                 </a>
+                 |
+                 <a class="u u-C" href="https://zwfw-new.hunan.gov.cn/">
+                  湖南政务服务网
+               </a>
+               |
+              
+            </div>
+            <div class="bottom" >
+                <div class="foot_nav"   >
+                     <a class="u u-C" href="#">
+                        关于我们
+                        </a>
+                     <a class="u u-C" href="#">
+                        网站声明
+                        </a> 
+                </div>
+            </div>
+            
+      
+
+
         <footer th:replace="~{modules/footer}">
     </div>
 

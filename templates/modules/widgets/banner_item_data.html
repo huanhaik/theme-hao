@@ -16,8 +16,9 @@
             width="100%"
             height="100%"
             class="thumbnail lazyload"
-            th:data-src="${post.spec.cover ?: postCover}"
-            th:src="${theme.config.carousel.banner_lazyload_img}"
+           
+            th:src="${post.spec.cover ?: postCover}"
+            
             th:alt="${post.spec.title}"
           />
         </th:block>
