@@ -10642,7 +10642,7 @@ a.extend.prev {
 }
 
 .layout#content-inner {
-    max-width: 1400px;
+    max-width: 1020px;
 }
 
 .layout#content-inner p img {
@@ -10685,6 +10685,7 @@ a.extend.prev {
         top: 0;
         display: flex;
         justify-content: center;
+        width: calc(70% + 0px);
     }
 }
 

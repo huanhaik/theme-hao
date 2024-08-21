@@ -13,7 +13,7 @@
 
 
 
-    <div class="page" id="body-wrap">
+    <div class="page" id="body-wrap"style="background: #0093f0;">
         <!-- 头部导航栏 -->
         <header th:class="${theme.config.top.above.enable_above ? 'full_page' : 'not-top-img'}" id="page-header">
             <nav th:replace="~{modules/nav :: nav(title = ${siteTitle})}"></nav>
@@ -53,21 +53,26 @@
             <div class="content">
                 <div class="divider"></div>
                 <div class="contact_div">
-                 <ul><p> 地 址：长沙市XXX区XXXX路XXXXX号 &nbsp;邮 编：XXXXXXX<br>联系电话：15489654321 &nbsp;E-mail：1308859654@qq.com<br></p></ul> 
+                 <ul>
+                  <p style="font-size:x-large;">
+                    <img style="width: 80px;display: inline;" th:src="@{/assets/images/xifa.png}" />湖南西法教育科技有限公司 </p>
+                  <p> 
+                        公司地址：湖南省长沙市开福区福元西路220号英祥春天商业裙楼1栋10楼<br>
+                        联系电话：15388041721 &nbsp;&nbsp; 19313030665&nbsp;<br>
+                        联系邮箱：137242229@qq.com<br>
+                      </p>
+                </ul> 
                   <ul>
                     <div class="contact_div">
-                      <ul style="">
-                        <img class="erweima" th:src="@{/assets/images/OIP-C.jpg}" />公众号
+                      <ul style="color: white;" >
+                        <img class="erweima" th:src="@{/assets/images/二维码.jpg}" />微信公众号
                       </ul>
-                      <ul>
-                        <img class="erweima" th:src="@{/assets/images/OIP-C.jpg}" />公众号
-                      </ul>
-                   
                   </div>
                 </ul>
                 </div>
                 
             </div>
+            <div class="divider"></div>
         </footer>
 
       
@@ -75,28 +80,28 @@
           <div class="footer">
             <h6 class="text-white uppercase">友情链接</h6>
             <div class="foot_nav">
-                    |
+              
                 <a 
               href="https://www.cdstm.cn/">
                         中国数字科技馆
                     </a>
-                    |
+                    &nbsp;&nbsp;&nbsp;
                  <a class="u u-C" href="https://www.oscca.gov.cn/">
                         国家密码管理局
                     </a>
-                    |
+                    &nbsp;&nbsp;&nbsp;
                  <a class="u u-C" href="http://www.hnfnu.edu.cn/">
                         湖南第一师范学院
                     </a>
-                    |
+                    &nbsp;&nbsp;&nbsp;
                     <a class="u u-C" href="http://people.guoliancenter.com/index">
                      国链安可人才培养基地
                   </a>
-                  |
+                  &nbsp;&nbsp;
                   <a class="u u-C" href="http://www.hunan.gov.cn/">
                     湖南省人民政府
                  </a>
-                 |
+                 &nbsp;&nbsp;&nbsp;
               
             </div>
             <div class="bottom" style="margin-bottom: -20px;" >
