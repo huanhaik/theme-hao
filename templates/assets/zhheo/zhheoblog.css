@@ -2531,7 +2531,7 @@ blockquote footer cite::before {
 
 #page-header.not-top-img {
     margin-bottom: 0.5rem;
-    height: 60px;
+    height: 120px;
     background: 0px center;
 }
 
@@ -2651,10 +2651,10 @@ blockquote footer cite::before {
 
 #page-header.nav-fixed #nav {
     position: fixed;
-    top: -60px;
+    top: -160px;
     z-index: 91;
     background: rgba(255, 255, 255, 0.8);
-    transition: transform 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    transition: transform  ease-in-out 0s, opacity  ease-in-out 0s;
 }
 
 #page-header.nav-fixed #nav #site-name,
@@ -4829,7 +4829,7 @@ html {
 
 /* 导航栏禁止隐藏 */
 #page-header.nav-fixed #nav {
-    top: 0;
+    /*导航栏隐藏   top: 0;*/
     box-shadow: none;
     background: var(--heo-card-bg);
     outline: 1px solid var(--heo-card-border);
@@ -4862,7 +4862,7 @@ html {
 #page-header #nav #nav-group {
     max-width: 1400px;
     width: 100%;
-    display: flex;
+   
     position: relative;
     padding: 0 1.5rem;
     align-items: center;
@@ -6223,6 +6223,8 @@ img.footer_mini_logo:hover {
     height: 60px;
     left: 0;
     margin: 0;
+    background: url(../images/nav_1.png)  no-repeat;
+    background-position: center;
 }
 
 #nav .menus_items {
