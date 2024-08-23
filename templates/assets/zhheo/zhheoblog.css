@@ -2531,7 +2531,7 @@ blockquote footer cite::before {
 
 #page-header.not-top-img {
     margin-bottom: 0.5rem;
-    height: 120px;
+    height: 150px;
     background: 0px center;
 }
 
@@ -2800,6 +2800,7 @@ blockquote footer cite::before {
 
 #nav .menus_items {
     display: inline;
+    
 }
 
 #nav .menus_items .menus_item {
@@ -5037,7 +5038,7 @@ html {
 #nav-totop {
     position: relative;
     width: 35px;
-    height: 35px;
+    height: 70px;
     transition: 0.3s;
     display: flex;
     border-radius: 40px;
@@ -5408,11 +5409,13 @@ html {
 
 #nav #blog_name {
     flex-wrap: nowrap;
-    height: 60px;
+    height: 100px;
     display: flex;
     align-items: center;
     z-index: 102;
     transition: 0.3s;
+    padding-left: 170px;
+    padding-top: 50px;
 }
 
 /* 导航栏文字 */
@@ -6218,13 +6221,12 @@ img.footer_mini_logo:hover {
 #nav #menus {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 1040px;
     position: absolute;
-    height: 60px;
-    left: 0;
+    height: 100px;
+    left: 180px;
     margin: 0;
-    background: url(../images/nav_1.png)  no-repeat;
-    background-position: center;
+    flex-direction: row;
 }
 
 #nav .menus_items {
@@ -6237,6 +6239,7 @@ img.footer_mini_logo:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 #menus > div.menus_items > div > a {
@@ -6461,7 +6464,7 @@ a.console_switchbutton {
     padding: 0 8px;
     transition: 0.3s;
     display: flex;
-    height: 35px;
+    height: 70px;
     /* width: 75px; */
     justify-content: center;
     align-items: center;

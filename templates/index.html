@@ -13,7 +13,7 @@
 
 
 
-    <div class="page" id="body-wrap" style="background-image: url(@{/assets/images/二维码.jpg});">
+    <div class="page" id="body-wrap"  >
         <!-- 头部导航栏 -->
         <header th:class="${theme.config.top.above.enable_above ? 'full_page' : 'not-top-img'}" id="page-header">
             <nav th:replace="~{modules/nav :: nav(title = ${siteTitle})}"></nav>
@@ -54,7 +54,7 @@
                 <div class="divider"></div>
                 <div class="contact_div">
                  <ul>
-                  <p style="font-size:x-large;">
+                  <p style="font-size:medium;">
                     <img style="width: 80px;display: inline;" th:src="@{/assets/images/xifa.png}" />湖南西法教育科技有限公司 </p>
                   <p> 
                         公司地址：湖南省长沙市开福区福元西路220号英祥春天商业裙楼1栋10楼<br>
@@ -78,27 +78,26 @@
       
        
           <div class="footer">
-            <h6 class="text-white uppercase">友情链接</h6>
+            <a class="text-white uppercase">友情链接</a>
             <div class="foot_nav">
               
-                <a 
-              href="https://www.cdstm.cn/">
+                <a style="color: #ffffff;" class="u u-C" href="https://www.cdstm.cn/">
                         中国数字科技馆
                     </a>
                     &nbsp;&nbsp;&nbsp;
-                 <a class="u u-C" href="https://www.oscca.gov.cn/">
+                 <a style="color: #ffffff;" class="u u-C" href="https://www.oscca.gov.cn/">
                         国家密码管理局
                     </a>
                     &nbsp;&nbsp;&nbsp;
-                 <a class="u u-C" href="http://www.hnfnu.edu.cn/">
+                 <a style="color: #ffffff;" class="u u-C" href="http://www.hnfnu.edu.cn/">
                         湖南第一师范学院
                     </a>
                     &nbsp;&nbsp;&nbsp;
-                    <a class="u u-C" href="http://people.guoliancenter.com/index">
+                    <a style="color: #ffffff;" class="u u-C" href="http://people.guoliancenter.com/index">
                      国链安可人才培养基地
                   </a>
                   &nbsp;&nbsp;
-                  <a class="u u-C" href="http://www.hunan.gov.cn/">
+                  <a style="color: #ffffff;" class="u u-C" href="http://www.hunan.gov.cn/">
                     湖南省人民政府
                  </a>
                  &nbsp;&nbsp;&nbsp;
@@ -106,10 +105,10 @@
             </div>
             <div class="bottom" style="margin-bottom: -20px;" >
                 <div class="foot_nav"   >
-                     <a class="u u-C" href="#">
+                     <a style="color: #ffffff;" class="u u-C" href="#">
                         关于我们
                         </a>
-                     <a class="u u-C" href="#">
+                     <a style="color: #ffffff;" class="u u-C" href="#">
                         网站声明
                         </a> 
                 </div>
