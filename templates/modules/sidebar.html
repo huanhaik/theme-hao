@@ -15,7 +15,7 @@
             <div class="back-menu-list-groups">
                 <div class="back-menu-list-group" th:each="menuItem : ${leftMenu.menuItems}">
 
-                    <th:block th:if="${not #lists.isEmpty(menuItem.children)}">
+                    <th:block >
                         <!-- 菜单必须有子项才会展示 -->
                         <div class="back-menu-list-title" th:text="${menuItem.status.displayName}"></div>
                         <div class="back-menu-list">
