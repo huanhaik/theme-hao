@@ -7,6 +7,10 @@
        url('iconfont.ttf?t=1708243411223') format('truetype'),
        url('iconfont.svg?t=1708243411223#haofont') format('svg');
 }
+@font-face {
+  font-family: "myfont";
+  src: url('myfont.ttf');
+}
 
 .haofont {
   font-family: "haofont" !important;

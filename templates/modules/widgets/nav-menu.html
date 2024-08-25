@@ -1,7 +1,7 @@
 <th:block th:fragment="nav-menu-recursion(menuItem)">
-    <!-- 有子菜单则显示子菜单 -->
-    <!--<th:block th:if="${not #lists.isEmpty(menuItem.children)}">
-        
+    <!-- 有子菜单则显示子菜单 
+    <th:block th:if="${not #lists.isEmpty(menuItem.children)}">
+      
         <div class="menus_item_child" th:classappend="${#annotations.get(menuItem,'isVertical')=='1'?'vertical_nav':''}">
             <div class="recursion_menus_item" th:each="childMenu : ${menuItem.children}">
                 <a class="site-page child" th:target="${childMenu.spec.target?.value}" th:href="@{${childMenu.status.href}}">
@@ -10,7 +10,7 @@
                        style="font-size:.9em"></i>
                     <span th:text="${childMenu.status.displayName}"></span>
                 </a>
-               
+        
                 <div th:replace="~{modules/widgets/nav-menu :: nav-menu-recursion(menuItem=${childMenu})}"></div>
             </div>
         </div>

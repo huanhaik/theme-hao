@@ -21,6 +21,10 @@
             <th:block th:replace="~{modules/header/greeting}"/>
             <!-- 第一屏 -->
             <th:block th:replace="~{modules/header/index-img}"/>
+            <p style="    font-family: 'myfont';
+            color: #FF5757;
+            font-size: 29px;
+            margin: 110px 0 0px 650px;">商用密码人才培养先行者</p>
         </header>
         <div id="home_top">
             <!-- 每日说说 -->
@@ -28,7 +32,7 @@
             <!-- 置顶内容 -->
             <div th:replace="~{modules/recent-top}"/>
         </div>
-
+        
         <!--轮播图-->
         <th:block
                 th:if="${theme.config.carousel.enable_banner} and ${not #lists.isEmpty(theme.config.carousel.banner_data_group)}"
@@ -37,7 +41,7 @@
               </th:block>
 
         <main class="layout" id="content-inner" th:classappend="${theme.config.sidebar.location}">
-            <div class="recent-posts" id="recent-posts">
+            <div style="padding: 0 0.4rem;" class="recent-posts" id="recent-posts">
                 
                 <!-- 分类导航栏 -->
                 <div th:replace="~{'modules/bar/' + ${theme.config.layout.navs.nav}}"></div>
@@ -114,10 +118,10 @@
                 </div>
             </div>
             
-      
+  
 
 
-        <footer th:replace="~{modules/footer}">
+            <footer th:replace="~{modules/footer}">
     </div>
 
 </th:block>
