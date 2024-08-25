@@ -2866,10 +2866,10 @@ blockquote footer cite::before {
 }
 
 #nav.hide-menu .menus_items {
-    position: absolute;
+    position: relative;
     left: 0px;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
 }
 
 #nav.hide-menu #search-button span {
@@ -4694,7 +4694,7 @@ html {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    top: 100px;
+   
 }
 
 #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item {
@@ -4964,7 +4964,7 @@ html {
     transform: translate3d(0px, 0px, 0px) !important;
     top: 0;
     transition: 0.2s;
-    position: fixed;
+    position: absolute;
     z-index: 91;
 }
 
@@ -5437,7 +5437,7 @@ html {
         align-items: center;
         z-index: 102;
         transition: 0.3s;
-        padding-left: 200px;
+        padding-left: 100px;
         padding-top: 50px;
     }
 }
@@ -6248,12 +6248,14 @@ img.footer_mini_logo:hover {
 #nav #menus {
     display: flex;
     justify-content: center;
-    width: 1040px;
+    width: 1120px;
     position: absolute;
-    height: 100px;
-    left: 180px;
-    margin: 0;
+    height: 60px;
+    background-color: #6B7A97;
+    margin: auto;
     flex-direction: row;
+    top: 220px;
+    left: 0px;
 }
 
 #nav .menus_items {

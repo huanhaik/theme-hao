@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /**
      * 滾動處理
      */
-    const scrollFn = function () {
+    /*const scrollFn = function () {
         const $postComment = document.getElementById('post-comment')
         const $rightside = document.getElementById('rightside')
         const innerHeight = window.innerHeight + 0
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return result
         }
     }
-
+*/
     /**
      * menu
      * 側邊欄sub-menu 展開/收縮

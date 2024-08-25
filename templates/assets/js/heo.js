@@ -63,7 +63,7 @@ var heo = {
 
 
     //监测是否在页面开头
-    addNavBackgroundInit: function() {
+    /*addNavBackgroundInit: function() {
         var e = 0
             , t = 0;
         document.body && (e = document.body.scrollTop),
@@ -102,7 +102,7 @@ var heo = {
             }
         }
     },
-
+*/
     // 页脚友链
     addFriendLinksInFooter: function () {
         var footerRandomFriendsBtn = document.getElementById("footer-random-friends-btn");
