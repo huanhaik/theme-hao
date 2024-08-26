@@ -12,12 +12,12 @@
     <div class="post" id="body-wrap">
 
         <header class="post-bg" id="page-header">
-            <nav th:replace="~{modules/nav :: nav(title = ${post.spec.title})}"></nav>
+          <!-- <nav th:replace="~{modules/nav :: nav(title = ${post.spec.title})}"></nav>
             <div class="coverdiv loaded" id="coverdiv">
                 <img alt="cover" class="nolazyload" id="post-cover"
                      th:src="${#strings.isEmpty(post.spec.cover) ? theme.config.layout.postRandomImg : post.spec.cover}">
             </div>
-
+--> 
             <div id="post-info">
                 <div id="post-firstinfo">
                     <div class="meta-firstline">

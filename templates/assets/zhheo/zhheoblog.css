@@ -2533,24 +2533,44 @@ blockquote footer cite::before {
         padding: 0px 1.1rem;
     }
 }
-
-#page-header.not-top-img {
-    margin-bottom: 0.5rem;
-    height: 260px;
-    background: 0px center;
-    background-color: #E7E7E7;
-    width: 1120px;  
-    margin: auto;
+@media screen and (max-width:1080px) {
+    #page-header.not-top-img {
+        margin-bottom: 0.5rem;
+        height: 260px;
+        background: 0px center;
+        width: 998px;  
+        margin: auto;
+    }
+    
+    #page-header.not-top-img #nav {
+        background: rgba(255, 255, 255, 0.8);
+    }
+    
+    #page-header.not-top-img #nav a {
+        color: #fff;
+        text-shadow: none;
+        font-size: 19px;
+    }
 }
-
-#page-header.not-top-img #nav {
-    background: rgba(255, 255, 255, 0.8);
-}
-
-#page-header.not-top-img #nav a {
-    color: #fff;
-    text-shadow: none;
-    font-size: 19px;
+@media screen and (min-width:1500px) {
+    #page-header.not-top-img {
+        margin-bottom: 0.5rem;
+        height: 260px;
+        background: 0px center;
+        background-color: #E7E7E7;
+        width: 998px;  
+        margin: auto;
+    }
+    
+    #page-header.not-top-img #nav {
+        background: rgba(255, 255, 255, 0.8);
+    }
+    
+    #page-header.not-top-img #nav a {
+        color: #fff;
+        text-shadow: none;
+        font-size: 19px;
+    }
 }
 
 #page-header.not-top-img #travellings_button::after {
@@ -4689,7 +4709,7 @@ html {
 }
 
 #nav .menus_items .menus_item {
-    padding: 10px 35px 10px 35px;
+    padding: 10px 30px 10px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -5438,8 +5458,8 @@ html {
         align-items: center;
         z-index: 102;
         transition: 0.3s;
-        padding-left: 100px;
-        padding-top: 50px;
+        padding-left: 70px;
+        padding-top: 90px;
     }
 }
 
@@ -6245,14 +6265,32 @@ img.footer_mini_logo:hover {
     transform: scale(1.03);
 }
 
+@media screen and (max-width:1080px) {
+    .shangyong {
+        font-family: 'myfont';
+        color: #FF5757;
+        font-size: 29px;
+        top: 100px;
+        right: 300px;
+        position: relative;
+    }
+}
+@media screen and (min-width:1500px) {
+    .shangyong {
+        font-family: 'myfont';
+        color: #FF5757;
+        font-size: 29px;
+        margin: 110px 0 0px 500px;
+    }
+}
 /* 导航栏居�? */
 #nav #menus {
     display: flex;
     justify-content: center;
-    width: 1120px;
+    width: 998px;
     position: absolute;
     height: 60px;
-    background-color: #6B7A97;
+    background-color: #78c8f0;
     margin: auto;
     flex-direction: row;
     top: 220px;
