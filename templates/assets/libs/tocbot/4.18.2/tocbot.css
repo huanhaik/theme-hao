@@ -12628,7 +12628,7 @@ pre > code::before {
 /* FOOTER */
 @media screen and (max-width:1080px) {
     .footer {
-        background-color: #287cf9;
+        background-color: #78c8f0;
         
         text-align: center;
         width: 100%;
@@ -12685,7 +12685,7 @@ pre > code::before {
 }
 @media screen and (min-width:1500px) {
     .footer {
-    background-color: #00bfff;
+    background-color: #78c8f0;
     
     text-align: center;
     width: 100%;
@@ -12743,7 +12743,7 @@ pre > code::before {
 }
 @media screen and (max-width:1080px) {
     .contact {
-        background-color: #00bfff;
+        background-color: #78c8f0;
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;
@@ -12808,7 +12808,7 @@ pre > code::before {
 }
 @media screen and (min-width:1500px) {
     .contact {
-        background-color: #00bfff;
+        background-color: #78c8f0;
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;

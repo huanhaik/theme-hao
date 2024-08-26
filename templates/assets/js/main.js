@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /**
      * 滾動處理
      */
-    /*const scrollFn = function () {
+    const scrollFn = function () {
         const $postComment = document.getElementById('post-comment')
         const $rightside = document.getElementById('rightside')
         const innerHeight = window.innerHeight + 0
@@ -297,13 +297,13 @@ document.addEventListener('DOMContentLoaded', function () {
             const isDown = scrollDirection(currentTop)
             if (currentTop > 0) {
                 if (isDown) {
-                    if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
+                    if ($header.classList.contains('')) $header.classList.remove('')
                     if (isChatBtnShow && isChatShow === true) {
                         chatBtnHide()
                         isChatShow = false
                     }
                 } else {
-                    if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
+                    if (!$header.classList.contains('')) $header.classList.add('')
                     if (isChatBtnHide && isChatShow === false) {
                         chatBtnShow()
                         isChatShow = true
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
 
-                $header.classList.add('nav-fixed')
+                $header.classList.add('')
                 if($cookies_window!=null && $cookies_window!=''){
                     $cookies_window.classList.add('cw-hide')
                 }
@@ -320,13 +320,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             } else {
                 if (currentTop === 0) {
-                    $header.classList.remove('nav-fixed', 'nav-visible')
+                    $header.classList.remove('', '')
                 }
-                $rightside.style.cssText = "opacity: ''; transform: ''"
+                $rightside.style.cssText = ""
             }
 
             if (document.body.scrollHeight <= innerHeight) {
-                $rightside.style.cssText = 'opacity: 0.8; transform: translateX(-58px)'
+                $rightside.style.cssText = ''
             }
         }, 200))
 
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return result
         }
     }
-*/
+
     /**
      * menu
      * 側邊欄sub-menu 展開/收縮
