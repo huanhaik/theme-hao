@@ -14,7 +14,7 @@
             <a class="page-number" th:href="${paths}" th:text="1" onclick="scrollToPost()"></a>
             <span class="space" th:if="${pageInfo.page != 4}">…</span>
         </th:block>
-
+        
         <th:block th:each="index:${#numbers.sequence(pageInfo.page-2,pageInfo.page+2)}">
             <span class="page-number current" th:if="${pageInfo.page} == ${index}" th:text="${pageInfo.page}"></span>
             <a class="page-number" th:unless="${pageInfo.page == index}"

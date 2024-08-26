@@ -974,7 +974,7 @@ blockquote footer {
 
 blockquote footer cite::before {
     padding: 0px 0.3em;
-    content: "�?";
+    content: "�?";
 }
 
 #article-container .gutter {
@@ -2370,8 +2370,8 @@ blockquote footer cite::before {
 }
 
 @font-face {
-    font-family: '励字山中精灵简';
-    src: url(@{/assets/励字山中精灵简});
+    font-family: '励字山中精睵简';
+    src: url(@{/assets/励字山中精睵简});
 }
 
 #footer {
@@ -2556,8 +2556,10 @@ blockquote footer cite::before {
     #page-header.not-top-img {
         margin-bottom: 0.5rem;
         height: 260px;
-        background: 0px center;
-        background-color: #E7E7E7;
+      
+        background-image: url(../images/header.png);
+      
+          
         width: 998px;  
         margin: auto;
     }
@@ -3175,7 +3177,7 @@ ul {
     position: absolute;
     top: calc(50% - 0.35rem);
     color: rgb(242, 186, 75);
-    content: "�?";
+    content: "�?";
     line-height: 1;
     transition: all 0.2s ease-out 0s;
 }
@@ -3436,7 +3438,7 @@ ul {
     top: 0.1rem;
     right: 0.6rem;
     color: rgb(48, 122, 246);
-    content: "�?";
+    content: "�?";
     font-size: 1rem;
 }
 
@@ -3473,7 +3475,7 @@ ul {
     top: 50%;
     left: 0.9em;
     color: rgb(255, 128, 128);
-    content: "�?";
+    content: "�?";
     transform: translateY(-50%);
 }
 
@@ -4570,17 +4572,17 @@ blockquote.pullquote.right {
 /* 全局
 ---------------------------------------------------------------- */
 
-/* 深色模式图片 */
+/* 深色模弝图片 */
 /* [data-theme=dark] img{
   filter: brightness(.9);
 } */
 
-/* 最小网页大�? */
+/* 最尝网页大�? */
 #page {
     min-height: calc(100vh - 464px);
 }
 
-/* 滚动�? */
+/* 滚动�? */
 ::-webkit-scrollbar {
     width: 12px;
     height: 6px
@@ -4607,17 +4609,17 @@ html {
     overflow-y: overlay;
 }
 
-/* 网页最大宽�? */
+/* 网页最大宽�? */
 .layout.hide-aside {
     max-width: 1400px;
 }
 
-/* 深色模式图片 */
+/* 深色模弝图片 */
 [data-theme="dark"] img {
     filter: brightness(1);
 }
 
-/* 导航栏中的样�? */
+/* 导航栝中的样�? */
 #nav {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -4727,7 +4729,7 @@ html {
     position: relative;
 }
 
-/*---------竖向菜单--------*/
+/*---------竖坑蝜坕--------*/
 #nav .menus_items .menus_item .menus_item_child.vertical_nav > .recursion_menus_item {
     display: flex;
     list-style: none;
@@ -4738,34 +4740,34 @@ html {
 }
 
 /**
-    上级菜单为横向菜单时
+    上级蝜坕为横坑蝜坕时
  */
 
 
-/*-------本菜单竖向菜单时------*/
-/* 第三级之后的菜单�? */
+/*-------本蝜坕竖坑蝜坕时------*/
+/* 第三级之坎的蝜坕�? */
 #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item > .menus_item_child.vertical_nav {
     margin-top: 24px;
     border-radius: 24px;
     padding: 2px 0px;
 }
 
-/* 第三级之后的菜单�? */
+/* 第三级之坎的蝜坕�? */
 #nav .menus_items .recursion_menus_item .menus_item_child.vertical_nav > .recursion_menus_item {
     display: flex;
     margin-top: 4px;
     padding: 2px 0;
 }
 
-/* 第三级之后的菜单项（第一个菜单项�? */
+/* 第三级之坎的蝜坕项（第一个蝜坕项�? */
 #nav .menus_items .recursion_menus_item .menus_item_child.vertical_nav > .recursion_menus_item:nth-child(1) {
     margin-top: 0;
 }
 
-/*-------本菜单竖向菜单时END------*/
+/*-------本蝜坕竖坑蝜坕时END------*/
 
-/*-------上级菜单为竖向菜单时------*/
-/*第四级以后的菜单�?*/
+/*-------上级蝜坕为竖坑蝜坕时------*/
+/*第四级以坎的蝜坕�?*/
 #nav .menus_items .recursion_menus_item > .menus_item_child.vertical_nav > .recursion_menus_item > .menus_item_child {
     position: absolute;
     left: calc(100% + 12px);
@@ -4780,9 +4782,9 @@ html {
     top: 0;
 }
 
-/*-------上级菜单为竖向菜单时END------*/
+/*-------上级蝜坕为竖坑蝜坕时END------*/
 
-/* 导航栏按钮悬�? */
+/* 导航栝按钮悬�? */
 #nav a {
     border-radius: 8px;
     color: var(--heo-white);
@@ -4825,7 +4827,7 @@ html {
     background: #aeaeae !important;
 }
 
-/* 无障�? */
+/* 无障�? */
 @media screen and (max-width: 768px) {
     #assist-open {
         display: none;
@@ -4858,9 +4860,9 @@ html {
 }
 
 
-/* 导航栏禁止隐�? */
+/* 导航栝禝止隝�? */
 #page-header.nav-fixed #nav {
-    /*导航栏隐�?   top: 0;*/
+    /*导航栝隝�?   top: 0;*/
     box-shadow: none;
     background: var(--heo-card-bg);
     outline: 1px solid var(--heo-card-border);
@@ -4977,7 +4979,7 @@ html {
     }
 
     #page-header #nav #nav-right {
-        margin-right: 12px;
+        margin-right: 630px;
     }
 }
 
@@ -5032,7 +5034,7 @@ html {
     padding: 0 0.4rem;
 }
 
-/* 无顶图时导航栏间�? */
+/* 无顶图时导航栝间�? */
 #page-header.no-top-img {
     margin-bottom: 0rem;
 }
@@ -5049,7 +5051,7 @@ html {
     }
 }
 
-/* 导航栏logo */
+/* 导航栝logo */
 #site-name .iconfont {
     font-size: 20px;
     font-weight: normal;
@@ -5261,7 +5263,7 @@ html {
     }
 }
 
-/* 导航栏图�? */
+/* 导航栝图�? */
 #nav #site-name i {
     font-size: 50px;
     line-height: 35px;
@@ -5464,7 +5466,7 @@ html {
 }
 
 
-/* 导航栏文�? */
+/* 导航栝文�? */
 @media screen and (min-width: 900px) {
     #nav #site-name {
         opacity: 1;
@@ -5645,7 +5647,7 @@ html {
     }
 }
 
-/* 音乐播放�? */
+/* 音九播放�? */
 
 .aplayer.aplayer-narrow .aplayer-body,
 .aplayer.aplayer-narrow .aplayer-pic {
@@ -5653,7 +5655,7 @@ html {
     width: 66px;
 }
 
-/* 导航栏音�? */
+/* 导航栝音�? */
 @media screen and (max-width: 1200px) {
     #nav-music {
         display: none !important;
@@ -5932,7 +5934,7 @@ html {
     }
 }
 
-/* 歌词 */
+/* 歌话 */
 #nav-music .aplayer.aplayer-withlrc .aplayer-lrc {
     width: 0;
     opacity: 0;
@@ -5975,13 +5977,13 @@ html {
     pointer-events: all;
 }
 
-/* 导航栏隐藏文�? */
+/* 导航栝隝藝文�? */
 /* #menus > div.menus_items > div > a > span{
   display: none;
 } */
 
 
-/* 品牌图标放大 */
+/* 哝牌图标放大 */
 i.fab {
     font-size: 20px;
     vertical-align: middle;
@@ -5998,7 +6000,7 @@ i.fab {
     display: none !important;
 }
 
-/* 消息弹窗 */
+/* 消杯弹窗 */
 .snackbar-container {
     background: var(--heo-lighttext) !important;
     color: var(--heo-card-bg) !important;
@@ -6059,7 +6061,7 @@ i.fab {
     }
 }
 
-/* 导航栏按�? */
+/* 导航栝按�? */
 #nav a {
     transition: 0.3s;
 }
@@ -6124,7 +6126,7 @@ i.fab {
     color: var(--heo-white);
 }
 
-/* footer样式 */
+/* footer样弝 */
 #footer-wrap {
     color: var(--heo-fontcolor);
 }
@@ -6147,7 +6149,7 @@ div#footer_deal {
     align-items: center;
 }
 
-/* 古诗词卡�? */
+/* 坤诗话坡�? */
 #card-poem {
     display: flex;
     flex-direction: column;
@@ -6268,7 +6270,7 @@ img.footer_mini_logo:hover {
 @media screen and (max-width:1080px) {
     .shangyong {
         font-family: 'myfont';
-        color: #FF5757;
+        color: #fff;
         font-size: 29px;
         top: 100px;
         right: 300px;
@@ -6278,19 +6280,19 @@ img.footer_mini_logo:hover {
 @media screen and (min-width:1500px) {
     .shangyong {
         font-family: 'myfont';
-        color: #FF5757;
+        color: #fff;
         font-size: 29px;
-        margin: 110px 0 0px 500px;
+        margin: 120px 0 0px 530px;
     }
 }
-/* 导航栏居�? */
+/* 导航栝居�? */
 #nav #menus {
     display: flex;
     justify-content: center;
     width: 998px;
     position: absolute;
     height: 60px;
-    background-color: #78c8f0;
+    background-image: url(../images/nav.png);
     margin: auto;
     flex-direction: row;
     top: 220px;
@@ -6340,7 +6342,7 @@ img.footer_mini_logo:hover {
     transform: translateX(-150px);
 }
 
-/* 传送门 */
+/* 传逝门 */
 #travellings_button {
     display: inline;
     padding: 0 0.4rem;
@@ -6357,7 +6359,7 @@ img.footer_mini_logo:hover {
     }
 }
 
-/* rightMenu右键菜单 */
+/* rightMenu坳键蝜坕 */
 #rightMenu {
     display: none;
     position: fixed;
@@ -6457,7 +6459,7 @@ img.footer_mini_logo:hover {
     z-index: 99993;
 }
 
-/* 深色模式切换 */
+/* 深色模弝切杢 */
 #darkmode_navswitch {
     display: inline;
     position: relative;
@@ -6495,7 +6497,7 @@ a.console_switchbutton {
     }
 }
 
-/* 导航栏图标阴�? */
+/* 导航栝图标阴�? */
 #nav .site-page {
     text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0);
     border-radius: 8px;
@@ -6526,10 +6528,10 @@ a.console_switchbutton {
     color: var(--heo-fontcolor);
 }
 
-/* 导航栏名称样�? */
+/* 导航栝坝称样�? */
 #nav #site-name {
     color: var(--heo-fontcolor);
-    padding: 30px 0 0 8px;
+  
     transition: 0.3s;
     display: flex;
     height: 70px;
@@ -6538,6 +6540,9 @@ a.console_switchbutton {
     align-items: center;
     text-shadow: none;
     border-radius: 40px;
+    position: relative;
+    left:-80px;
+    top:5px ;
 }
 
 .page #nav #site-name {
@@ -6558,7 +6563,7 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 搜索 */
+/* 杜索 */
 #search-button > a > span {
     display: none;
 }
@@ -6568,7 +6573,7 @@ body[data-type=music] .page #nav #site-name span {
     display: none;
 }
 
-/* 右下角设置按钮间�? */
+/* 坳下角设置按钮间�? */
 #rightside {
     position: fixed;
     right: -48px;
@@ -6669,7 +6674,7 @@ body[data-type=music] .page #nav #site-name span {
 }
 
 
-/* footer背景�? */
+/* footer背景�? */
 #footer {
     background: linear-gradient(180deg, var(--heo-card-bg-none) 0%, var(--heo-card-bg) 25%);
     margin-top: 0.5rem;
@@ -6686,7 +6691,7 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 搜索 */
+/* 杜索 */
 #algolia-search .ais-hits--item.algolia-hit-item a {
     color: var(--heo-fontcolor);
 }
@@ -6736,7 +6741,7 @@ body[data-type=music] .page #nav #site-name span {
     color: var(--heo-white);
 }
 
-/* 手机端菜单背�? */
+/* 手机端蝜坕背�? */
 #mobile-sidebar #mobile-sidebar-menus.open {
     background: var(--heo-maskbg);
 }
@@ -6745,7 +6750,7 @@ body[data-type=music] .page #nav #site-name span {
     transition: .3s;
 }
 
-/* 手机端导�? */
+/* 手机端导�? */
 #sidebar #sidebar-menus .site-data {
     margin: 1rem 0;
     padding: 0.6rem 0.5rem;
@@ -6765,7 +6770,7 @@ body[data-type=music] .page #nav #site-name span {
     border-radius: 25px;
 }
 
-/* 搜索结果文字 */
+/* 杜索结果文字 */
 #algolia-search .search-dialog .ais-hits--item.algolia-hit-item a {
     color: var(--heo-fontcolor);
     width: auto;
@@ -6775,7 +6780,7 @@ body[data-type=music] .page #nav #site-name span {
     overflow: hidden;
 }
 
-/* 其他页面封面移除 */
+/* 其他页面尝面移除 */
 .not-index-bg {
     height: 2rem !important;
     background-image: none !important;
@@ -6791,7 +6796,7 @@ body[data-type=music] .page #nav #site-name span {
     display: none;
 }
 
-/* 进度�? */
+/* 进度�? */
 .pace {
     -webkit-pointer-events: none;
     pointer-events: none;
@@ -6856,7 +6861,7 @@ body[data-type=music] .page #nav #site-name span {
     top: -8px;
 }
 
-/* 进度条缓慢消�? */
+/* 进度条缓慢消�? */
 /* @keyframes hidetip {
   from {
     opcity: 1;
@@ -6866,7 +6871,7 @@ body[data-type=music] .page #nav #site-name span {
   }
 } */
 
-/* 文章页侧边栏固定位置 */
+/* 文章页侧边栝固定佝置 */
 @media screen and (max-width: 1300px) {
     #aside-content .sticky_layout {
         top: 60px;
@@ -6879,15 +6884,15 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 保证无card-widget时自动和左侧元素对齐 */
+/* 保话无card-widget时自动和左侧元素对齝 */
 @media screen and (min-width: 1300px) {
     #aside-content .sticky_layout {
         margin-top: 0rem;
     }
 }
 
-/* �? :has() 伪类判断card-widget是否存在，进行属性覆�? */
-/* 若存在，表明需要和card-widget保持距离 */
+/* �? :has() 伪类判断card-widget是坦存在，进行属性覆�? */
+/* 若存在，表明需覝和card-widget保挝距离 */
 @media screen and (min-width: 1300px) {
     #aside-content:has(+.card-widget) {
     #aside-content .sticky_layout {
@@ -6930,24 +6935,24 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 最新文章侧边栏 */
+/* 最新文章侧边栝 */
 .card-widget.card-recent-post {
     padding: 0.4rem 0.6rem !important;
 }
 
-/* 最新文章侧边栏时间显示 */
+/* 最新文章侧边栝时间显示 */
 #aside-content .aside-list > .aside-list-item .content > time {
     display: none;
 }
 
-/* 最新文章侧边栏标题 */
+/* 最新文章侧边栝标题 */
 #aside-content .aside-list > .aside-list-item .content > .title {
     -webkit-line-clamp: 3;
     font-weight: bold;
     padding: 2px 0;
 }
 
-/* 最新文章侧边栏悬浮 */
+/* 最新文章侧边栝悬浮 */
 #aside-content .aside-list > .aside-list-item {
     padding: 8px;
     padding-top: 6px !important;
@@ -7052,7 +7057,7 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 侧边栏按钮文�? */
+/* 侧边栝按钮文�? */
 a.card-archive-list-link-more {
     color: var(--heo-white) !important;
     background: var(--heo-card-btn-bg);
@@ -7150,7 +7155,7 @@ li.card-archive-list-item {
     text-align: center;
 }
 
-/* 侧边栏统�? */
+/* 侧边栝统�? */
 .webinfo-item {
     display: flex;
     white-space: nowrap;
@@ -7167,7 +7172,7 @@ li.card-archive-list-item {
     text-align: center;
 }
 
-/* 侧边栏配�? */
+/* 侧边栝酝�? */
 @media screen and (min-width: 1300px) {
     #aside-content {
         padding-left: 1rem;
@@ -7211,7 +7216,7 @@ li.card-archive-list-item {
     bottom: 80px;
 }
 
-/* 按钮样式 */
+/* 按钮样弝 */
 .button--animated {
     border-radius: 8px !important;
     transition: 0.3s;
@@ -7323,7 +7328,7 @@ span.fund_name {
     color: var(--heo-green);
 }
 
-/* 音乐宣传 */
+/* 音九宣传 */
 #aside-content .card-widget#card-music {
     background: var(--heo-pink);
     display: flex;
@@ -7352,7 +7357,7 @@ span.fund_name {
     align-content: center;
 }
 
-/* 友情链接 */
+/* 坋情链接 */
 #aside-content .card-widget#card-friendlinks {
     background: var(--heo-main);
     display: flex;
@@ -7381,7 +7386,7 @@ span.fund_name {
     align-content: center;
 }
 
-/* 微信公众�? */
+/* 微信公众�? */
 #aside-content .card-widget#card-wechat {
     background: #07C160;
     display: flex;
@@ -7404,7 +7409,7 @@ span.fund_name {
     align-content: center;
 }
 
-/* 微信公众号翻�? */
+/* 微信公众坷翻�? */
 #flip-wrapper {
     position: relative;
     width: 235px;
@@ -7452,7 +7457,7 @@ span.fund_name {
     background-size: 100%;
 }
 
-/* 爱发电赞�? */
+/* 爱坑电赞�? */
 #aside-content .card-widget.card-power {
     padding: .4rem .6rem !important
 }
@@ -7580,7 +7585,7 @@ div#power-star-title {
     color: var(--heo-white);
 }
 
-/* 开�? */
+/* 开�? */
 #widget-tree-button {
     background-color: var(--heo-secondbg) !important;
     box-shadow: var(--heo-shadow-light2black) !important;
@@ -7748,7 +7753,7 @@ div#power-star-title {
 }
 
 
-/* 主页导航栏让位偏�? */
+/* 主页导航栝让佝坝�? */
 /* .layout_page .recent-posts{
   margin-top: 2em;
 }
@@ -7760,13 +7765,13 @@ div#power-star-title {
     width: calc(100% - 300px);
 }
 
-/* 当隐藏边栏时，显�? 100% */
+/* 当隝藝边栝时，显�? 100% */
 .layout.hide-aside > div:first-child {
     width: 100%;
 }
 
 @media screen and (min-width: 1200px) {
-    /* 侧边栏在左侧时，显示 100% */
+    /* 侧边栝在左侧时，显示 100% */
     .layout.left-aside > div:first-child {
         -webkit-box-ordinal-group: 2;
         -moz-box-ordinal-group: 2;
@@ -7776,7 +7781,7 @@ div#power-star-title {
         order: 2;
     }
 
-    /* 侧栏在左侧时，关闭左边距，打开右边�? */
+    /* 侧栝在左侧时，关闭左边距，打开坳边�? */
     .layout.left-aside .aside-content {
         padding-right: 15px;
         padding-left: 0px !important;
@@ -8450,7 +8455,7 @@ a.categoryButton:hover {
     background-position: 100% 0;
 }
 
-/* 首页分类条展�? */
+/* 首页分类条展�? */
 #category-bar {
     padding: 0.4rem 1rem 0.4rem 0.7rem;
     background: var(--heo-card-bg);
@@ -8683,7 +8688,7 @@ li {
     }
 }
 
-/* 哔哔前往 */
+/* 哔哔剝往 */
 .bber-gotobb {
     line-height: 25px;
     margin-left: 1rem;
@@ -8729,7 +8734,7 @@ li {
 }
 
 
-/* 文章卡片相关 */
+/* 文章坡片相关 */
 #recent-posts > .recent-post-item > .recent-post-info {
     padding: 0;
 }
@@ -8902,7 +8907,7 @@ li {
     }
 }
 
-/* 文章卡片文字信息 */
+/* 文章坡片文字信杯 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap a {
     color: var(--heo-fontcolor);
 }
@@ -9038,7 +9043,7 @@ li {
     cursor: pointer;
 }
 
-/* 添加粒子效果 */
+/* 添加粒孝效果 */
 [data-theme="dark"] #universe {
     display: block;
     position: fixed;
@@ -9203,23 +9208,23 @@ ins.adsbygoogle {
     color: var(--heo-card-bg);
 }
 
-/* 文章封面 */
+/* 文章尝面 */
 
 #recent-post-top .recent-post-item .post_cover {
     width: 100%;
 }
 
-/* 文章卡片图标与文字间�? */
+/* 文章坡片图标与文字间�? */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap i {
     margin: 0 0.4rem 0 0;
 }
 
-/* 文章卡片置顶标签 */
+/* 文章坡片置顶标签 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap .sticky {
     color: var(--heo-fontcolor);
 }
 
-/* 文章卡片高度 */
+/* 文章坡片高度 */
 #recent-posts .recent-post-item {
     height: fit-content;
     background: var(--heo-card-bg);
@@ -9240,7 +9245,7 @@ ins.adsbygoogle {
     }
 }
 
-/* 文章卡片偏移样式 */
+/* 文章坡片坝移样弝 */
 @media screen and (max-width: 1300px) {
 
     #recent-posts>.recent-post-item .left_radius,#recent-posts>.recent-post-item .right_radius {
@@ -9310,7 +9315,7 @@ ins.adsbygoogle {
     min-width: 100%
 }
 
-/* 文章置顶卡片样式 */
+/* 文章置顶坡片样弝 */
 .recent-top-post-group {
     border-radius: 12px;
     overflow: hidden;
@@ -9419,7 +9424,7 @@ span.recent-post-top-text {
     }
 }
 
-/* 封面 */
+/* 尝面 */
 .recent-post-top .recent-post-item .post_cover a {
     height: 100px;
     overflow: hidden;
@@ -9501,7 +9506,7 @@ span.recent-post-top-text {
 }
 
 
-/* 主页卡片阴影 */
+/* 主页坡片阴影 */
 #aside-content .card-widget {
     box-shadow: var(--heo-shadow-border);
     background: var(--heo-card-bg);
@@ -9534,7 +9539,7 @@ span.recent-post-top-text {
     will-change: transform
 }
 
-/* 图片在左�? */
+/* 图片在左�? */
 #recent-posts > .recent-post-item.left, .recent-post-item.alternate.odd {
     flex-direction: row !important;
 }
@@ -9543,7 +9548,7 @@ span.recent-post-top-text {
     border-radius: 12px 0px 0px 12px !important;
 }
 
-/* 图片在右�? */
+/* 图片在坳�? */
 #recent-posts > .recent-post-item.right, .recent-post-item.alternate.even {
     flex-direction: row-reverse !important;
 }
@@ -9586,18 +9591,18 @@ span.recent-post-top-text {
     }
 
     /* 设置分列 */
-    /* 1 列：左右排列 */
+    /* 1 列：左坳排列 */
     #recent-posts > .recent-post-item.col1, #category #recent-posts .recent-post-item.col1, #tag #recent-posts .recent-post-item.col1 {
         width: calc(100% - .5rem);
 
     }
 
-    /* 2 �? */
+    /* 2 �? */
     #recent-posts > .recent-post-item.col2, #category #recent-posts .recent-post-item.col2, #tag #recent-posts .recent-post-item.col2 {
         width: calc(100% / 2 - .5rem);
     }
 
-    /* 3 �? */
+    /* 3 �? */
     #recent-posts > .recent-post-item.col3, #category #recent-posts .recent-post-item.col3, #tag #recent-posts .recent-post-item.col3 {
         width: calc(100% / 3 - .5rem);
     }
@@ -9616,15 +9621,15 @@ span.recent-post-top-text {
         animation: none
     }
 
-    /* 首页文章第一�? */
+    /* 首页文章第一�? */
     #recent-posts {
         display: flex;
         flex-wrap: wrap;
-        
+        margin: auto;
         align-items: flex-start;
         align-content: flex-start;
         -webkit-user-select: none;
-        
+        width: 998px;
     }
 }
 
@@ -9642,7 +9647,7 @@ span.recent-post-top-text {
     position: relative
 }
 
-/* 主页卡片手机端美�? */
+/* 主页坡片手机端美�? */
 @media screen and (max-width: 768px) {
     #recent-posts > .recent-post-item {
         border-radius: 0;
@@ -9694,7 +9699,7 @@ span.recent-post-top-text {
     }
 }
 
-/* 置顶卡片数量优化 */
+/* 置顶坡片数針优化 */
 @media screen and (min-width: 1300px) {
     .topGroup .recent-post-item:nth-child(7) {
         display: none;
@@ -9705,7 +9710,7 @@ span.recent-post-top-text {
 /* 手机端精简优化 */
 @media screen and (max-width: 768px) {
 
-    /* 边栏头像 */
+    /* 边栝头僝 */
     #sidebar-menus > div.author-avatar {
         display: none;
     }
@@ -9749,7 +9754,7 @@ span.recent-post-top-text {
 
 }
 
-/* 文章卡片标题 */
+/* 文章坡片标题 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-title {
     line-height: 1.4;
     margin-top: 0px;
@@ -9787,7 +9792,7 @@ span.recent-post-top-text {
 }
 
 
-/* 日期右侧显示 */
+/* 日期坳侧显示 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap > .post-meta-date {
     right: 0px;
     text-align: right;
@@ -9877,12 +9882,12 @@ span.recent-post-top-text {
     color: var(--heo-lighttext);
 }
 
-/* 目录卡片边距 */
+/* 目录坡片边距 */
 #card-toc {
     padding: 0.5rem 0.5rem !important;
 }
 
-/* 不显示分割线 */
+/* 丝显示分割线 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap .article-meta__separator {
     display: none;
 }
@@ -9895,7 +9900,7 @@ span.recent-post-top-text {
     text-overflow: ellipsis;
 }
 
-/* 不显示标签分割点 */
+/* 丝显示标签分割点 */
 .article-meta__link {
     display: none;
 }
@@ -9905,7 +9910,7 @@ span.recent-post-top-text {
     padding: 0 0.2rem 0 0;
 }
 
-/* 多分类兼容性调�? */
+/* 多分类兼容性调�? */
 #recent-posts > div > i .post_cover {
     display: none;
 }
@@ -9955,7 +9960,7 @@ span.recent-post-top-text {
     }
 }
 
-/* 首页文章标签样式 */
+/* 首页文章标签样弝 */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap a:hover {
     background-color: var(--heo-none);
     color: var(--heo-lighttext);
@@ -9978,7 +9983,7 @@ span.recent-post-top-text {
     }
 }
 
-/* 热门标签提醒 */
+/* 热门标签杝醒 */
 
 /* sketch */
 #aside-content .card-tag-cloud a[href*="/tags/Sketch/"] {
@@ -10009,7 +10014,7 @@ span.recent-post-top-text {
     margin-left: 2px;
 }
 
-/* 描述 */
+/* 杝述 */
 #recent-posts > .recent-post-item > .recent-post-info > .content {
     line-height: 1.4;
     color: var(--heo-secondtext);
@@ -10051,7 +10056,7 @@ span.recent-post-top-text {
             -webkit-line-clamp: 5 !important;
         }
 
-        /* 大文章高�? */
+        /* 大文章高�? */
         #recent-posts > .post-card-large {
             height: 20em !important;
         }
@@ -10070,7 +10075,7 @@ span.recent-post-top-text {
   transition: 0.3s;
 } */
 
-/* 描述行数限制 */
+/* 杝述行数陝制 */
 #recent-posts > .recent-post-item > .recent-post-info > .content {
     -webkit-line-clamp: 2;
 }
@@ -10096,12 +10101,12 @@ div#author-info__sayhi:hover {
     transform: scale(1.1)
 }
 
-/* 选中第一个卡片，与左侧元素对�? */
+/* 选中第一个坡片，与左侧元素对�? */
 #aside-content > .card-widget:first-child {
     margin-top: 0px;
 }
 
-/* 作者卡片背�? */
+/* 作者坡片背�? */
 #aside-content > .card-widget.card-info {
     transition: 0.3s;
     border: none;
@@ -10150,7 +10155,7 @@ div#author-info__sayhi:hover {
     }
 }
 
-/* 作者卡片描�? */
+/* 作者坡片杝�? */
 #aside-content > div.card-widget.card-info > div > div.card-info-avatar.is-center > div.author-info__description {
     line-height: 1.38;
     margin: .3rem 0;
@@ -10162,7 +10167,7 @@ div#author-info__sayhi:hover {
     color: var(--heo-white);
 }
 
-/* 作者卡片描�?2 */
+/* 作者坡片杝�?2 */
 .author-info__description2 {
     line-height: 1.38;
     margin: .3rem 0;
@@ -10206,13 +10211,13 @@ div#author-info__sayhi:hover {
 }
 
 
-/* 头像背景 */
-/* 隐藏文章数等信息 */
+/* 头僝背景 */
+/* 隝藝文章数等信杯 */
 #aside-content .card-info .card-info-data {
     display: none;
 }
 
-/* 作者头�? */
+/* 作者头�? */
 #aside-content .card-info a img {
     border-radius: 0px;
     height: 200px;
@@ -10257,17 +10262,17 @@ div#author-info__sayhi:hover {
     transform: scale(1.03);
 }
 
-/* 作者文章列表链�? */
+/* 作者文章列表链�? */
 #aside-content > div.card-widget.card-info > div > div.card-info-data > div:nth-child() > a > div.headline {
     font-weight: bold;
 }
 
-/* 作者名称和头像间距 */
+/* 作者坝称和头僝间距 */
 /* #aside-content .card-info .author-info__name{
   padding-top: 30px;
 } */
 
-/* pad端隐藏部分侧边栏 */
+/* pad端隝藝部分侧边栝 */
 @media screen and (max-width: 900px) {
     #aside-content .card-announcement {
         display: none;
@@ -10295,7 +10300,7 @@ div#author-info__sayhi:hover {
     line-height: 1.38;
 }
 
-/* 卡片标题 */
+/* 坡片标题 */
 #aside-content .item-headline {
     padding-bottom: 0;
     margin-left: 8px;
@@ -10331,7 +10336,7 @@ div#author-info__sayhi:hover {
     }
 }
 
-/* 卡片根据时间查看文章底部查看更多按钮 */
+/* 坡片根杮时间查看文章底部查看更多按钮 */
 #aside-content > div.sticky_layout > div.card-widget.card-archives > div > ul > li.card-archive-list-item.more.is-center {
     margin-top: 8px;
     background: var(--heo-card-btn-bg);
@@ -10372,7 +10377,7 @@ div#author-info__sayhi:hover {
 }
 
 
-/* 标签云卡�? */
+/* 标签云坡�? */
 #aside-content .card-tag-cloud a {
     color: var(--heo-fontcolor);
     font-size: 0.8rem;
@@ -10402,7 +10407,7 @@ div#author-info__sayhi:hover {
     }
 }
 
-/* 时间轴卡�? */
+/* 时间轴坡�? */
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
 #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
     color: var(--heo-card-bg);
@@ -10448,7 +10453,7 @@ a.extend.prev {
     display: none;
 }
 
-/* 文章�?
+/* 文章�?
 ---------------------------------------------------------------- */
 
 /* 文章头图 */
@@ -10622,12 +10627,12 @@ a.extend.prev {
 }
 
 #page-header {
-    background-image: none !important;
+    
     display: flex;
     justify-content: center;
 }
 
-/* 顶部遮罩 */
+/* 顶部靮罩 */
 #post-cover-rgb {
     position: absolute;
     width: 100% !important;
@@ -10723,7 +10728,7 @@ a.extend.prev {
     margin: auto
 }
 
-/* 隐藏主页头图 */
+/* 隝藝主页头图 */
 .full_page #post-cover {
     display: none;
 }
@@ -10779,7 +10784,7 @@ a.extend.prev {
     }
 }
 
-/* 文章时间分类信息 */
+/* 文章时间分类信杯 */
 #post-firstinfo {
     text-align: left;
     display: flex;
@@ -10856,7 +10861,7 @@ span.post-meta-categories:hover a.post-meta-categories {
     }
 }
 
-/* 文章作者信息和时间 */
+/* 文章作者信杯和时间 */
 .meta-avatar img {
     width: 30px;
     border-radius: 30px;
@@ -10984,7 +10989,7 @@ span.post-meta-pv-cv {
     margin-left: 0.8rem;
 }
 
-/* 微信公众号同�? */
+/* 微信公众坷坌�? */
 span.post-meta-wechat {
     margin-right: 10px;
     opacity: 0.6;
@@ -10995,7 +11000,7 @@ span.post-meta-position {
     opacity: 0.6;
 }
 
-/* 隐藏信息文字 */
+/* 隝藝信杯文字 */
 #post-info #post-meta .post-meta-label {
     display: none;
 }
@@ -11005,12 +11010,12 @@ span.post-meta-position {
     margin-right: 0.2rem;
 }
 
-/* 每组间距 */
+/* 毝组间距 */
 #post-info #post-meta .post-meta-separator {
     margin: 0px 0.4rem;
 }
 
-/* 文章信息数�? */
+/* 文章信杯数�? */
 .post-meta-pv-cv #visit {
     font-weight: 800;
 }
@@ -11027,7 +11032,7 @@ span.post-meta-position {
     font-weight: 800;
 }
 
-/* 文章信息透明�? */
+/* 文章信杯逝明�? */
 .post-meta-wordcount {
     opacity: 0.6;
     margin-right: 0.8rem
@@ -11069,7 +11074,7 @@ span.post-meta-position {
     margin-right: 0.5rem;
 }
 
-/* 文章内图片保持一�? */
+/* 文章内图片保挝一�? */
 .inline-image {
     display: flex;
     margin: 8px auto;
@@ -11111,7 +11116,7 @@ span.post-meta-position {
     }
 }
 
-/* 文章顶部其他信息 */
+/* 文章顶部其他信杯 */
 #post-meta > div {
     text-align: left;
 }
@@ -11140,7 +11145,7 @@ span.post-meta-position {
     line-height: 1
 }
 
-/* 文章标题前图�? */
+/* 文章标题剝图�? */
 #article-container h1:before,
 #article-container h2:before,
 #article-container h3:before,
@@ -11151,7 +11156,7 @@ span.post-meta-position {
     content: '';
 }
 
-/* 文章标题前图标悬�? */
+/* 文章标题剝图标悬�? */
 #article-container h1:hover:before,
 #article-container h2:hover:before,
 #article-container h3:hover:before,
@@ -11171,7 +11176,7 @@ span.post-meta-position {
     padding-left: 1.3rem;
 }
 
-/* 文章tab样式 */
+/* 文章tab样弝 */
 #article-container ul > li:not(.tab):before {
     border: 0.21em solid var(--heo-main);
     background: var(--heo-main);
@@ -11246,7 +11251,7 @@ span.post-meta-position {
 }
 
 
-/* 切换tab标签 */
+/* 切杢tab标签 */
 #article-container .tabs > .tab-contents .tab-item-content.active {
     animation: tabshow 0s;
     -webkit-animation: tabshow 0s;
@@ -11265,7 +11270,7 @@ span.post-meta-position {
     overflow: hidden;
 }
 
-/* 文章details折叠 */
+/* 文章details折坠 */
 details:not(.tk-admin-config-group):not(.card-friend-class-name) {
     display: block;
     position: relative;
@@ -11292,9 +11297,9 @@ details:not(.tk-admin-config-group):not(.card-friend-class-name) summary {
     left: 0;
     width: 100%;
     font-weight: bold;
-    white-space: nowrap; /* 禁止换行 */
-    overflow: hidden; /* 超出部分隐藏 */
-    text-overflow: ellipsis; /* 超出部分用省略号表示 */
+    white-space: nowrap; /* 禝止杢行 */
+    overflow: hidden; /* 超出部分隝藝 */
+    text-overflow: ellipsis; /* 超出部分用眝略坷表示 */
 }
 
 details:not(.tk-admin-config-group):not(.card-friend-class-name) > *:nth-child(2) {
@@ -11363,12 +11368,12 @@ details[open]:not(.tk-admin-config-group):not(.card-friend-class-name) > summary
     }
 }
 
-/* 文章点样�? */
+/* 文章点样�? */
 #article-container ul > li:not(.tab):hover:before {
     border-color: var(--heo-none);
 }
 
-/* 文章中的超链�? */
+/* 文章中的超链�? */
 #article-container a {
     text-decoration: none;
     border-bottom: 2px dotted var(--heo-main);
@@ -11431,7 +11436,7 @@ strong {
     color: var(--heo-lighttext);
 }
 
-/* 文章字号 */
+/* 文章字坷 */
 #article-container p {
     font-size: 0.9rem;
     line-height: 1.7;
@@ -11584,7 +11589,7 @@ h6 {
     margin: 0;
 }
 
-/* 隐藏阅读进度 */
+/* 隝藝阅读进度 */
 #aside-content #card-toc .toc-content:before {
     display: none;
 }
@@ -11604,7 +11609,7 @@ blockquote p {
 }
 
 
-/* 文章内标�? */
+/* 文章内标�? */
 #article-container .headerlink::before {
     content: "\e621";
     font-family: haofont !important;
@@ -11633,7 +11638,7 @@ blockquote p {
     text-decoration: none;
 }
 
-/* 文章边栏 */
+/* 文章边栝 */
 #sidebar {
     background: var(--heo-maskbg);
 }
@@ -11654,7 +11659,7 @@ blockquote p {
     border-radius: 12px !important;
 }
 
-/* 文章数字�? */
+/* 文章数字�? */
 #article-container ol li:before,
 #article-container ul li:before {
     background: var(--heo-main);
@@ -11685,7 +11690,7 @@ blockquote p {
     background: #f2b94b0c;
 }
 
-/* 相关推荐 */
+/* 相关推蝝 */
 /* .relatedPosts>.relatedPosts-list>div {
     border-radius: 12px;
 } */
@@ -11815,7 +11820,7 @@ blockquote p {
     }
 }
 
-/* 复制按钮 */
+/* 夝制按钮 */
 .post-copyright-copybtn {
     margin-left: 0.5rem;
     color: var(--heo-fontcolor);
@@ -11901,7 +11906,7 @@ blockquote p {
     -webkit-box-orient: vertical;
 }
 
-/* 装饰�? */
+/* 装饰�? */
 #post .post-copyright:before {
     display: none;
 }
@@ -11940,19 +11945,19 @@ blockquote p {
     align-items: center;
 }
 
-/* 赞赏描述 */
+/* 赞赝杝述 */
 .reward-dec {
     font-size: 0.6rem;
 }
 
-/* 赞赏名单 */
+/* 赞赝坝坕 */
 
 .reward-text {
     margin-bottom: 0rem;
     font-weight: bold;
 }
 
-/* 赞赏名单按钮 */
+/* 赞赝坝坕按钮 */
 a.reward-main-btn {
     background: var(--heo-secondbg);
     color: var(--heo-fontcolor);
@@ -11977,7 +11982,7 @@ a.reward-main-btn:hover {
     color: var(--heo-red);
 }
 
-/* 赞赏背景 */
+/* 赞赝背景 */
 #quit-box {
     position: fixed;
     width: 100vw;
@@ -12003,8 +12008,8 @@ a.reward-main-btn:hover {
 }
 
 
-/* 接下来下一�? */
-/* 接下来下一�? */
+/* 接下来下一�? */
+/* 接下来下一�? */
 .next-post.pull-right,
 .prev-post.pull-left,
 #pagination .prev-post,
@@ -12419,7 +12424,7 @@ a.reward-main-btn:hover {
     }
 }
 
-/* 相关推荐 */
+/* 相关推蝝 */
 
 .relatedPosts > .relatedPosts-list > div:hover #preimg {
     opacity: 1;
@@ -12446,7 +12451,7 @@ a.reward-main-btn:hover {
     color: var(--heo-white);
 }
 
-/* 分割�? */
+/* 分割�? */
 #post > hr {
     display: none;
 }
@@ -12525,7 +12530,7 @@ div#post-comment {
     padding-left: 16px
 }
 
-/* 头像 */
+/* 头僝 */
 .tk-avatar {
     width: 32px !important;
     height: 32px !important;
@@ -12563,21 +12568,21 @@ img.tk-avatar-img {
     margin-right: 0.5rem !important;
 }
 
-/* 评论输入框提�? */
-/* 设置文字内容 :nth-child(1)的作用是选择第几�? */
+/* 评论输入框杝�? */
+/* 设置文字内容 :nth-child(1)的作用是选择第几�? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
-    content: '输入QQ号会自动获取昵称和头�?';
+    content: '输入QQ坷会自动获坖昵称和头�?';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
-    content: '收到回复将会发送到你的邮箱';
+    content: '收到回夝将会坑逝到你的邮箱';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
-    content: '可以通过昵称访问你的网站';
+    content: '坯以通过昵称访问你的网站';
 }
 
-/* 当用户点击输入框时显�? */
+/* 当用户点击输入框时显�? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before {
     display: block;
     animation: commonTipsIn 0.3s;
@@ -12614,19 +12619,19 @@ img.tk-avatar-img {
 
 /* 主内容区 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend::before {
-    /* 先隐藏起�? */
+    /* 先隝藝起�? */
     display: none;
-    /* 绝对定位 */
+    /* 绝对定佝 */
     position: absolute;
-    /* 向上移动55像素 */
+    /* 坑上移动55僝素 */
     top: -55px;
-    /* 文字强制不换行，防止left:50%导致的文字换�? */
+    /* 文字强制丝杢行，防止left:50%导致的文字杢�? */
     white-space: nowrap;
     /* 圆角 */
     border-radius: 10px;
     /* 距离左边50% */
     left: 50%;
-    /* 然后再向左边挪动自身的一半，即可实现居中 */
+    /* 然坎冝坑左边挪动自身的一坊，坳坯实现居中 */
     transform: translate(-50%);
     /* 填充 */
     padding: 14px 18px;
@@ -12635,13 +12640,13 @@ img.tk-avatar-img {
     z-index: 100;
 }
 
-/* 小角�? */
+/* 尝角�? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend::after {
     display: none;
     content: '';
     position: absolute;
-    /* 内容大小（宽高）�?0且边框大小不�?0的情况下，每一条边�?4个边）都是一个三角形，组成一个正方形�?
-  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
+    /* 内容大尝（宽高）�?0且边框大尝丝�?0的情况下，毝一条边�?4个边）都是一个三角形，组戝一个正方形�?
+  我们先将所有边框逝明，冝给其中的一条边添加颜色就坯以实现尝三角图标 */
     border: 15px solid transparent;
     border-top-color: #444;
     left: 50%;
@@ -12654,7 +12659,7 @@ img.tk-avatar-img {
     line-height: 32px;
 }
 
-/* 填写项标�? */
+/* 填写项标�? */
 .el-input-group__append, .el-input-group__prepend {
     background-color: var(--heo-card-bg) !important;
     color: var(--heo-fontcolor) !important;
@@ -12663,7 +12668,7 @@ img.tk-avatar-img {
     font-weight: 700
 }
 
-/* 输入�? */
+/* 输入�? */
 .el-input__inner {
     background: var(--heo-secondbg) !important;
     border: none !important;
@@ -12704,7 +12709,7 @@ img.tk-avatar-img {
     border: none !important
 }
 
-/* 评论输入�? */
+/* 评论输入�? */
 .el-textarea__inner {
     background: var(--heo-secondbg) !important;
     color: var(--heo-fontcolor) !important;
@@ -12741,23 +12746,23 @@ img.tk-avatar-img {
     flex-direction: column-reverse !important;
 }
 
-/* 评论数量字号 */
+/* 评论数針字坷 */
 #twikoo > div.tk-comments > div.tk-comments-container > div.tk-comments-title > span:nth-child(1) {
     /* display: none !important; */
     font-size: 1.0rem;
 }
 
-/* 加载时背景颜�? */
+/* 加载时背景颜�? */
 .el-loading-mask {
     background-color: none !important;
 }
 
-/* 所有标�? */
+/* 所有标�? */
 .tk-tag {
     transform: translateY(-2px);
 }
 
-/* 评论博主标签圆角 */
+/* 评论坚主标签圆角 */
 .tk-tag-green {
     border-radius: 4px !important;
     border: 0px solid #e1f3d8 !important;
@@ -12814,12 +12819,12 @@ img.tk-avatar-img {
     /* z-index: 102; */
 }
 
-/* 魔改教程入口 */
+/* 魔改教程入坣 */
 .twikoo-info {
     color: var(--heo-secondtext);
 }
 
-/* 点赞和评�? */
+/* 点赞和评�? */
 .tk-action-link {
     color: var(--heo-lighttext) !important;
 }
@@ -12828,7 +12833,7 @@ img.tk-avatar-img {
     fill: var(--heo-lighttext) !important;
 }
 
-/* 取消按钮 */
+/* 坖消按钮 */
 button.el-button.tk-cancel.el-button--default.el-button--small {
     background: var(--heo-secondbg) !important;
     border-radius: 8px !important;
@@ -12839,7 +12844,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     display: none;
 }
 
-/* 发送按钮正常状�? */
+/* 坑逝按钮正常状�? */
 .tk-comments .el-button--primary {
     border-color: var(--heo-fontcolor) !important;
     color: var(--heo-card-bg) !important;
@@ -12854,7 +12859,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     height: 32px
 }
 
-/* 发送按钮禁用状�? */
+/* 坑逝按钮禝用状�? */
 .tk-comments .el-button--primary.is-disabled,
 .tk-comments .el-button--primary.is-disabled:active,
 .tk-comments .el-button--primary.is-disabled:focus,
@@ -13056,7 +13061,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     margin-left: 0.5rem;
 }
 
-/* 评论之间的间�? */
+/* 评论之间的间�? */
 .tk-comments-container > .tk-comment {
     margin-top: 0rem !important;
     margin-bottom: 0.5rem !important;
@@ -13093,7 +13098,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     /* position: absolute; */
 }
 
-/* 评论功能模块标题字号 */
+/* 评论功能模块标题字坷 */
 #post-comment .comment-head {
     font-size: 0.8em !important;
     margin-bottom: 0.5rem;
@@ -13107,7 +13112,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     font-size: 13px;
 }
 
-/* 隐藏没有评论 */
+/* 隝藝没有评论 */
 .tk-comments-no {
     /* display: none !important; */
 }
@@ -13137,7 +13142,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     color: var(--heo-secondtext);
 }
 
-/* 图片描述 */
+/* 图片杝述 */
 .img-alt {
     font-size: 12px;
     margin: 0;
@@ -13154,7 +13159,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     margin: 0 !important;
 }
 
-/* 文章底部推荐 */
+/* 文章底部推蝝 */
 
 @media screen and (min-width: 768px) {
     #pagination.pagination-post {
@@ -13387,7 +13392,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 }
 
 
-/* 表情窗口owo */
+/* 表情窗坣owo */
 .OwO .OwO-body {
     border: var(--style-border-always) !important;
     border-radius: 8px !important;
@@ -13443,7 +13448,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 }
 
 
-/* 文章列表�? */
+/* 文章列表�? */
 /* ---------------------------------------------------------------- */
 /* 标题 */
 #page .category-lists .category-title {
@@ -13622,7 +13627,7 @@ span.tags-punctuation::before {
     padding-left: 0rem;
 }
 
-/* 分类�? */
+/* 分类�? */
 #article-container > div > figure > figcaption > p {
     margin: 0;
 }
@@ -13657,12 +13662,12 @@ figure.gallery-group {
     border-radius: 12px;
 }
 
-/* 分类分割线隐�? */
+/* 分类分割线隝�? */
 figure.gallery-group:hover .gallery-group-name::after {
     display: none;
 }
 
-/* 标签详情页标�? */
+/* 标签详情页标�? */
 .tag-cloud-title {
     display: none;
 }
@@ -13726,7 +13731,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     box-shadow: var(--heo-shadow-theme);
 }
 
-/* 时间�? */
+/* 时间�? */
 .article-sort-item:before {
     display: none;
 }
@@ -13812,9 +13817,9 @@ figure.gallery-group:hover .gallery-group-name::after {
     color: var(--heo-lighttext);
 }
 
-/* 友情链接页面 */
+/* 坋情链接页面 */
 /* ---------------------------------------------------------------- */
-/* 随机文章 */
+/* 隝机文章 */
 #random-post {
     min-height: 32px;
     background: var(--heo-card-bg);
@@ -13850,7 +13855,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     color: var(--heo-hovertext);
 }
 
-/* 炙焰友链间距 */
+/* 炙焰坋链间距 */
 .flink#article-container .flink-list {
     padding: 0;
     margin: 0.5rem -6px 1rem -6px;
@@ -13862,7 +13867,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     color: var(--heo-secondtext);
 }
 
-/* 友情描述 */
+/* 坋情杝述 */
 .flink#article-container .flink-list > .flink-list-item a .flink-item-desc {
     white-space: normal;
     padding: 5px 10px 16px 0;
@@ -13881,7 +13886,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     color: var(--heo-card-bg);
 }
 
-/* 友链标题 */
+/* 坋链标题 */
 .flink-list-item .flink-item-info {
     display: flex;
     flex-direction: column;
@@ -13917,7 +13922,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     background: none;
 }
 
-/* 友链头像 */
+/* 坋链头僝 */
 .flink#article-container .flink-list > .flink-list-item a img {
     border-radius: 32px;
     margin: 15px 20px 15px 15px;
@@ -13928,7 +13933,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 悬浮状态头�? */
+/* 悬浮状思头�? */
 .flink#article-container .flink-list > .flink-list-item:hover a img {
     transition: 0.6s;
     width: 0;
@@ -13939,7 +13944,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     min-height: 0px;
 }
 
-/* 友链右侧图标 */
+/* 坋链坳侧图标 */
 
 #article-container .flink-list > .flink-list-item:hover .flink-item-info > img {
     opacity: .8 !important;
@@ -13962,12 +13967,12 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 标题和描�? */
+/* 标题和杝�? */
 .flink#article-container .flink-list > .flink-list-item a span {
     transition: 0.3s;
 }
 
-/* 友链描述 */
+/* 坋链杝述 */
 .flink#article-container .flink-list > .flink-list-item:hover a .flink-item-desc {
     overflow: hidden;
     width: 100%;
@@ -14010,9 +14015,9 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 超级博主友链 */
+/* 超级坚主坋链 */
 
-/* 超级博主标题 */
+/* 超级坚主标题 */
 
 .flink#article-container .site-card .info .title {
     color: var(--heo-fontcolor);
@@ -14034,7 +14039,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 超级博主描述 */
+/* 超级坚主杝述 */
 .flink#article-container .site-card .info .desc {
     font-size: 0.7rem;
     color: var(--heo-fontcolor);
@@ -14159,7 +14164,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     border-radius: 0 0 12px 12px;
 }
 
-/* 修复图片圆角 */
+/* 修夝图片圆角 */
 .flink#article-container .site-card .img img {
     border-radius: 12px 12px 0 0;
     transform: scale(1.03);
@@ -14189,7 +14194,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 头像 */
+/* 头僝 */
 .flink#article-container .site-card .info img {
     border-radius: 32px;
     transition: .3s ease-out !important;
@@ -14219,14 +14224,14 @@ figure.gallery-group:hover .gallery-group-name::after {
     box-shadow: var(--heo-shadow-main);
 }
 
-/* 友链文章 */
+/* 坋链文章 */
 .article-sort-item-info a {
     margin-right: auto;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-/* 新页�? */
+/* 新页�? */
 
 @media screen and (max-width: 768px) {
     #letlink {
@@ -14312,7 +14317,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/*页脚样式一*/
+/*页脚样弝一*/
 
 .haofont.hao-icon-heartbeat {
     transition: 0.3s;
@@ -14505,7 +14510,7 @@ div#heo-footer-bar .footer-bar-description {
 }
 
 /* bb哔哔 */
-/* bb样式 */
+/* bb样弝 */
 
 #bber .timeline #waterfall {
     opacity: 0;
@@ -14613,7 +14618,7 @@ div#heo-footer-bar .footer-bar-description {
     width: 100%;
 }
 
-/* 每条动�? */
+/* 毝条动�? */
 #bber div.bber-content {
     display: flex;
     flex-direction: initial;
@@ -14682,7 +14687,7 @@ div#heo-footer-bar .footer-bar-description {
     margin-right: 4px;
 }
 
-/* 音乐 */
+/* 音九 */
 #bber .bber-music {
     width: 100%;
     height: 90px;
@@ -14757,7 +14762,7 @@ div#heo-footer-bar .footer-bar-description {
     display: none;
 }
 
-/* 只能展示30条的提示 */
+/* 坪能展示30条的杝示 */
 #bber-tips {
     font-size: 14px;
     display: flex;
@@ -14881,7 +14886,7 @@ div#heo-footer-bar .footer-bar-description {
     box-shadow: var(--heo-shadow-blue);
 }
 
-/* 友链朋友�? */
+/* 坋链朋坋�? */
 
 #hexo-circle-of-friends-root {
     margin: 0 -8px;
@@ -14978,7 +14983,7 @@ a.bb-link-info:hover {
     display: none;
 }
 
-/* 朋友圈页�? */
+/* 朋坋圈页�? */
 
 #friend_moments_list .moments-sort-item {
     margin: 1rem 0;
@@ -15226,8 +15231,8 @@ span.hexo-douban-pagenum {
     border-bottom: var(--style-border) !important;
 }
 
-/* 标签�? */
-/* 隐藏时间 */
+/* 标签�? */
+/* 隝藝时间 */
 .article-sort-item-time {
     display: none;
 }
@@ -15415,7 +15420,7 @@ span.hexo-douban-pagenum {
     height: 0.9rem;
 }
 
-/* about关于�? */
+/* about关于�? */
 .la-widget.la-data-widget__container {
     border-radius: 12px;
     border: var(--style-border) !important;
@@ -15580,7 +15585,7 @@ span.hexo-douban-pagenum {
     white-space: nowrap;
 }
 
-/* 一行内�? */
+/* 一行内�? */
 
 .author-content {
     display: flex;
@@ -15590,7 +15595,7 @@ span.hexo-douban-pagenum {
     margin-top: 1rem;
 }
 
-/* 一行内容，纵向组件 */
+/* 一行内容，纵坑组件 */
 
 .author-content-item-group.column {
     display: flex;
@@ -15599,7 +15604,7 @@ span.hexo-douban-pagenum {
     justify-content: space-between;
 }
 
-/* 一行内容，横向组件 */
+/* 一行内容，横坑组件 */
 
 .author-content-item {
     width: 49%;
@@ -15924,7 +15929,7 @@ span.hexo-douban-pagenum {
 }
 
 
-/* 关于页面打招呼信�? */
+/* 关于页面打招呼信�? */
 
 #about-page .myInfoAndSayHello {
     display: flex;
@@ -15953,7 +15958,7 @@ span.hexo-douban-pagenum {
     width: 59%;
 }
 
-/* 关于页面自我信息 */
+/* 关于页面自我信杯 */
 .author-content-item.selfInfo {
     display: flex;
     min-height: 100px;
@@ -16095,7 +16100,7 @@ span.hexo-douban-pagenum {
     }
 }
 
-/* 关于页面座右�? */
+/* 关于页面座坳�? */
 
 .author-content-item.maxim {
     font-size: 36px;
@@ -16156,7 +16161,7 @@ span.hexo-douban-pagenum {
     margin-bottom: 0.5rem;
 }
 
-/* 关于页面我的技�? */
+/* 关于页面我的技�? */
 .author-content-item.skills {
     display: flex;
     justify-content: center;
@@ -16382,7 +16387,7 @@ span.hexo-douban-pagenum {
     color: var(--heo-card-bg)
 }
 
-/* 关于页面赞赏 */
+/* 关于页面赞赝 */
 
 .author-content-item.single.reward .author-content-item .author-content-item-title {
     color: var(--heo-red);
@@ -16570,7 +16575,7 @@ span.hexo-douban-pagenum {
     display: none;
 }
 
-/* 喜欢的游�? lol */
+/* 喜欢的游�? lol */
 .author-content-item.game-lol {
     background: url(https://img.zhheo.com/i/2022/08/31/630efa7ae39fe.webp) no-repeat top;
     background-size: cover;
@@ -16716,7 +16721,7 @@ span.hexo-douban-pagenum {
     background: url('https://img.zhheo.com/i/2022/08/25/63074b54d2731.png');
 }
 
-/* 喜欢的游�? 狼人杀 */
+/* 喜欢的游�? 狼人杀 */
 .author-content-item.game-wolf {
     width: 39%;
     background: url(https://img.zhheo.com/i/2022/08/31/630efa916a851.webp) no-repeat top;
@@ -16846,7 +16851,7 @@ span.hexo-douban-pagenum {
     color: var(--heo-white);
 }
 
-/* 喜欢音乐 */
+/* 喜欢音九 */
 .author-content-item.like-music {
     background: url(https://img.zhheo.com/i/2022/08/31/630efae141e9a.webp) no-repeat top;
     background-size: cover;
@@ -16988,7 +16993,7 @@ span.hexo-douban-pagenum {
     }
 }
 
-/* 工具推荐 */
+/* 工具推蝝 */
 .author-content.author-content-item.toolPage {
     height: 19rem;
     background: url(https://img.zhheo.com/i/2022/08/26/6308d5778ba3c.jpg) no-repeat top;
@@ -16998,7 +17003,7 @@ span.hexo-douban-pagenum {
     margin-top: 0;
 }
 
-/* 友链鱼塘 */
+/* 坋链鱼塘 */
 .author-content.author-content-item.momentsPage {
     height: 19rem;
     background: url(https://img.zhheo.com/i/2022/08/26/6308d5b137881.jpg) no-repeat top;
@@ -17008,7 +17013,7 @@ span.hexo-douban-pagenum {
     margin-top: 0;
 }
 
-/* 即刻短文 */
+/* 坳刻短文 */
 .author-content.author-content-item.essayPage {
     height: 19rem;
     background: url(https://img.zhheo.com/i/2022/08/27/6309587509a02.jpg) no-repeat center;
@@ -17018,7 +17023,7 @@ span.hexo-douban-pagenum {
     margin-top: 0;
 }
 
-/* 中控�? */
+/* 中控�? */
 #console {
     display: flex;
     position: fixed;
@@ -17473,7 +17478,7 @@ span.hexo-douban-pagenum {
 }
 
 
-/* 快捷键窗�? */
+/* 快杷键窗�? */
 #keyboard-tips {
     position: fixed;
     top: 80px;
@@ -17542,7 +17547,7 @@ span.hexo-douban-pagenum {
 }
 
 @media screen and (min-width: 768px) {
-    /* 隐藏弹窗 */
+    /* 隝藝弹窗 */
     .needEndHide.hide {
         bottom: -200px !important;
         opacity: 0;
@@ -17550,7 +17555,7 @@ span.hexo-douban-pagenum {
 }
 
 
-/* 订阅卡片 */
+/* 订阅坡片 */
 .rss-plan-list {
     display: flex;
     width: 100%;
@@ -17687,7 +17692,7 @@ img.rss-plan-icon {
 }
 
 
-/* 分页搜索�? */
+/* 分页杜索�? */
 .pagination input {
     width: 40px;
     height: 40px;
@@ -17763,7 +17768,7 @@ a#toPageButton.haveValue:hover {
     }
 }
 
-/*   code样式 */
+/*   code样弝 */
 code:not([class]) {
     color: var(--heo-white);
     padding: 0.25rem 0.4rem;
@@ -17777,7 +17782,7 @@ code:not([class]) {
 }
 
 
-/*   导航栏中间返回顶部样�? */
+/*   导航栝中间返回顶部样�? */
 #page-header.nav-fixed #nav #page-name-text {
     display: inline;
     opacity: 1;
@@ -17827,7 +17832,7 @@ code:not([class]) {
 }
 
 
-/* 导航栏中间样�? */
+/* 导航栝中间样�? */
 #menus > div.menus_items a {
     font-size: 16.8px;
     font-weight: 700;

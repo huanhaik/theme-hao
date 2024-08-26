@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
         else t = blogNameWidth + menusWidth + searchWidth > $nav.offsetWidth - 120
 
         if (t) {
-            $nav.classList.add('hide-menu')
+            $nav.classList.add('menu')
         } else {
-            $nav.classList.remove('hide-menu')
+            $nav.classList.remove('menu')
         }
     }
 

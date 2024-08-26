@@ -2771,8 +2771,8 @@ section {
 .divider {
     border-top: 0.05rem solid rgba(224, 224, 224, 0.575);
     height: 0.2rem;
-    position: relative;
-    width: 3000px;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -12628,7 +12628,7 @@ pre > code::before {
 /* FOOTER */
 @media screen and (max-width:1080px) {
     .footer {
-        background-color: #78c8f0;
+        background-image: url(../../../images/footer.png);
         
         text-align: center;
         width: 100%;
@@ -12685,7 +12685,7 @@ pre > code::before {
 }
 @media screen and (min-width:1500px) {
     .footer {
-    background-color: #78c8f0;
+        background-image: url(../../../images/footer.png);
     
     text-align: center;
     width: 100%;
@@ -12743,7 +12743,7 @@ pre > code::before {
 }
 @media screen and (max-width:1080px) {
     .contact {
-        background-color: #78c8f0;
+        background-image: url(../../../images/contact.png);
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;
@@ -12808,7 +12808,7 @@ pre > code::before {
 }
 @media screen and (min-width:1500px) {
     .contact {
-        background-color: #78c8f0;
+        background-image: url(../../../images/contact.png);
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;
