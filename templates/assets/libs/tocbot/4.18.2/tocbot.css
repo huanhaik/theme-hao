@@ -12683,7 +12683,7 @@ pre > code::before {
         text-transform: uppercase;
     }
 }
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1080px) {
     .footer {
         background-image: url(../../../images/footer.png);
     
@@ -12806,7 +12806,7 @@ pre > code::before {
         text-transform: uppercase;
     }
 }
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1080px) {
     .contact {
         background-image: url(../../../images/contact.png);
         padding: 5px 0 10px 0;
