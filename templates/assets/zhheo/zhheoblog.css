@@ -4944,10 +4944,21 @@ html {
     border-radius: 40px;
 }
 
-#page-header #nav #nav-right .nav-button a i,
+@media screen  and (max-width:1080px){
+    #page-header #nav #nav-right .nav-button a i,
 #page-header #nav #nav-left .nav-button a i {
     line-height: 1;
     font-size: 22px;
+    color: #000;
+}
+}
+@media screen and (min-width:1500px) {
+    #page-header #nav #nav-right .nav-button a i,
+#page-header #nav #nav-left .nav-button a i {
+    line-height: 1;
+    font-size: 22px;
+    
+}
 }
 
 #page-header #nav #nav-right div,
@@ -5450,6 +5461,8 @@ html {
         transition: 0.3s;
         padding-top: 50px;
         font-size: 35px;
+        position: relative;
+        left:70px ;
     }
 }
 @media screen and (min-width:1500px) {
@@ -6270,11 +6283,16 @@ img.footer_mini_logo:hover {
 @media screen and (max-width:1080px) {
     .shangyong {
         font-family: 'myfont';
-        color: #fff;
+        color: #000;
         font-size: 29px;
         top: 100px;
         right: 300px;
         position: relative;
+    }
+    .shangyong1{
+        font-family: myfont;
+        font-size: 45px;
+        color:#000;
     }
 }
 @media screen and (min-width:1500px) {
@@ -6283,6 +6301,11 @@ img.footer_mini_logo:hover {
         color: #fff;
         font-size: 29px;
         margin: 120px 0 0px 530px;
+    }
+    .shangyong1{
+        font-family: myfont;
+        font-size: 45px;
+        color:#fff;
     }
 }
 /* 导航栝居�? */
@@ -8500,7 +8523,7 @@ a.categoryButton:hover {
 }
 
 #category #category-bar {
-    padding: 0;
+    padding: 0 15px;
     border: none;
     box-shadow: none;
 }
@@ -10643,7 +10666,7 @@ a.extend.prev {
 /* 文章背景阴影 */
 .layout > div:first-child:not(.recent-posts) {
     box-shadow: var(--heo-shadow-border);
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     border-radius: 12px;
     background: var(--heo-card-bg);
     border: var(--style-border);
