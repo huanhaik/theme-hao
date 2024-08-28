@@ -5047,7 +5047,7 @@ html {
     #nav #menus {
         display: flex;
         justify-content: center;
-        width: 372px;
+        width: 393px;
         position: absolute;
         height: 60px;
         background-image: url(../images/nav.png);
