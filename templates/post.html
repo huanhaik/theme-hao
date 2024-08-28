@@ -58,14 +58,10 @@
                 <h1 class="post-title" th:text="${post.spec.title}"></h1>
                 <div id="post-meta">
                     <div class="meta-secondline">
-                        <span class="post-meta-author" data-flag-title="文章作者" title="文章作者">
-                            <i class="haofont hao-icon-zuozhe post-meta-icon"></i>[[${post.owner.displayName}]]
-                        </span>
+                       
                         <span class="post-meta-wordcount"
                               th:with="wordCount = ${#strings.length(post.content.content)}">
-                            <i class="haofont hao-icon-file-word post-meta-icon" title="字数"></i>
-                            <span class="post-meta-label">字数:</span>
-                            <span class="word-count" th:text="${{wordCount}}"></span>
+                           
                             <span class="post-meta-separator"></span>
                             <i class="haofont hao-icon-clock post-meta-icon" title="阅读耗时"></i>
                             <span class="post-meta-label">阅读耗时:</span>
