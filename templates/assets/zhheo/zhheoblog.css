@@ -974,7 +974,7 @@ blockquote footer {
 
 blockquote footer cite::before {
     padding: 0px 0.3em;
-    content: "�??";
+    content: "�??";
 }
 
 #article-container .gutter {
@@ -2538,8 +2538,9 @@ blockquote footer cite::before {
         margin-bottom: 0.5rem;
         height: 260px;
         background: 0px center;
-        width: 998px;  
+        bottom: 60px;
         margin: auto;
+        background-image: url(../images/header.png);
     }
     
     #page-header.not-top-img #nav {
@@ -2549,7 +2550,7 @@ blockquote footer cite::before {
     #page-header.not-top-img #nav a {
         color: #fff;
         text-shadow: none;
-        font-size: 19px;
+        font-size: 13px;
     }
 }
 @media screen and (min-width:1080px) {
@@ -2837,7 +2838,6 @@ blockquote footer cite::before {
 #nav .menus_items .menus_item {
     position: relative;
     display: inline-block;
-    padding: 0px 0.4rem 0px 0px;
 }
 
 #nav .menus_items .recursion_menus_item:hover > .menus_item_child,
@@ -3177,7 +3177,7 @@ ul {
     position: absolute;
     top: calc(50% - 0.35rem);
     color: rgb(242, 186, 75);
-    content: "�??";
+    content: "�??";
     line-height: 1;
     transition: all 0.2s ease-out 0s;
 }
@@ -3438,7 +3438,7 @@ ul {
     top: 0.1rem;
     right: 0.6rem;
     color: rgb(48, 122, 246);
-    content: "�??";
+    content: "�??";
     font-size: 1rem;
 }
 
@@ -3475,7 +3475,7 @@ ul {
     top: 50%;
     left: 0.9em;
     color: rgb(255, 128, 128);
-    content: "�??";
+    content: "�??";
     transform: translateY(-50%);
 }
 
@@ -4577,12 +4577,12 @@ blockquote.pullquote.right {
   filter: brightness(.9);
 } */
 
-/* 最尝网页大�?? */
+/* 最尝网页大�?? */
 #page {
     min-height: calc(100vh - 464px);
 }
 
-/* 滚动�?? */
+/* 滚动�?? */
 ::-webkit-scrollbar {
     width: 12px;
     height: 6px
@@ -4609,7 +4609,7 @@ html {
     overflow-y: overlay;
 }
 
-/* 网页最大宽�?? */
+/* 网页最大宽�?? */
 .layout.hide-aside {
     max-width: 1400px;
 }
@@ -4619,7 +4619,7 @@ html {
     filter: brightness(1);
 }
 
-/* 导航栝中的样�?? */
+/* 导航栝中的样�?? */
 #nav {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -4709,14 +4709,25 @@ html {
     font-size: 1rem;
     margin-right: 8px;
 }
-
-#nav .menus_items .menus_item {
-    padding: 10px 30px 10px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-   
+@media screen and (max-width:1080px) {
+    #nav .menus_items .menus_item {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+       
+    }
+}
+@media screen and (min-width:1080px) {
+    #nav .menus_items .menus_item {
+        padding: 10px 30px 10px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+       
+    }
 }
 
 #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item {
@@ -4745,21 +4756,21 @@ html {
 
 
 /*-------本蝜坕竖坑蝜坕时------*/
-/* 第三级之坎的蝜坕�?? */
+/* 第三级之坎的蝜坕�?? */
 #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item > .menus_item_child.vertical_nav {
     margin-top: 24px;
     border-radius: 24px;
     padding: 2px 0px;
 }
 
-/* 第三级之坎的蝜坕�?? */
+/* 第三级之坎的蝜坕�?? */
 #nav .menus_items .recursion_menus_item .menus_item_child.vertical_nav > .recursion_menus_item {
     display: flex;
     margin-top: 4px;
     padding: 2px 0;
 }
 
-/* 第三级之坎的蝜坕项（第一个蝜坕项�?? */
+/* 第三级之坎的蝜坕项（第一个蝜坕项�?? */
 #nav .menus_items .recursion_menus_item .menus_item_child.vertical_nav > .recursion_menus_item:nth-child(1) {
     margin-top: 0;
 }
@@ -4767,7 +4778,7 @@ html {
 /*-------本蝜坕竖坑蝜坕时END------*/
 
 /*-------上级蝜坕为竖坑蝜坕时------*/
-/*第四级以坎的蝜坕�??*/
+/*第四级以坎的蝜坕�??*/
 #nav .menus_items .recursion_menus_item > .menus_item_child.vertical_nav > .recursion_menus_item > .menus_item_child {
     position: absolute;
     left: calc(100% + 12px);
@@ -4784,7 +4795,7 @@ html {
 
 /*-------上级蝜坕为竖坑蝜坕时END------*/
 
-/* 导航栝按钮悬�?? */
+/* 导航栝按钮悬�?? */
 #nav a {
     border-radius: 8px;
     color: var(--heo-white);
@@ -4827,7 +4838,7 @@ html {
     background: #aeaeae !important;
 }
 
-/* 无障�?? */
+/* 无障�?? */
 @media screen and (max-width: 768px) {
     #assist-open {
         display: none;
@@ -4860,9 +4871,9 @@ html {
 }
 
 
-/* 导航栝禝止隝�?? */
+/* 导航栝禝止隝�?? */
 #page-header.nav-fixed #nav {
-    /*导航栝隝�??   top: 0;*/
+    /*导航栝隝�??   top: 0;*/
     box-shadow: none;
     background: var(--heo-card-bg);
     outline: 1px solid var(--heo-card-border);
@@ -4968,29 +4979,129 @@ html {
     position: relative;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width:1080px) {
     #nav #menus {
-        display: none !important;
+        display: flex;
+        justify-content: center;
+        width: 998px;
+        position: absolute;
+        height: 60px;
+        background-image: url(../images/nav.png);
+        margin: auto;
+        flex-direction: row;
+        top: 220px;
+        left: 0px;
     }
-
-    #nav.hide-menu #toggle-menu .site-page {
-        width: 35px;
+    
+    #nav .menus_items {
+        position: relative;
+        width: fit-content;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    #menus > div.menus_items > div > a {
+        letter-spacing: 0.3rem;
+        padding-left: 0.7rem;
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0;
         height: 35px;
+        line-height: 35px;
+        border-radius: 40px;
+    }
+    
+    .page #menus > div.menus_items > .menus_item:hover > a {
+        color: var(--heo-card-bg) !important;
+    }
+    
+    #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item > a {
+        letter-spacing: 0rem;
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-
-    #page-header #nav #nav-group {
+        border-radius: 100px;
+        padding: 0.2rem 0.5rem;
         width: 100%;
-        display: flex;
-        position: relative;
-        padding: 0 12px;
+        color: var(--heo-fontcolor) !important;
+        text-shadow: none !important;
     }
-
-    #page-header #nav #nav-right {
-        margin-right: 630px;
+    
+    #page-header.nav-fixed #nav #menus[style*="padding-right: 300px;"] .menus_items {
+        transform: translateX(-150px);
+    }
+    
+    /* 传逝门 */
+    #travellings_button {
+        display: inline;
+        padding: 0 0.4rem;
+        transition: 0.3s;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #nav #menus {
+        display: flex;
+        justify-content: center;
+        width: 372px;
+        position: absolute;
+        height: 60px;
+        background-image: url(../images/nav.png);
+        margin: auto;
+        flex-direction: row;
+        top: 260px;
+        left: 0px;
+    }
+    
+    #nav .menus_items {
+        position: relative;
+        width: fit-content;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    #menus > div.menus_items > div > a {
+       
+        font-weight: bold;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+    
+    .page #menus > div.menus_items > .menus_item:hover > a {
+        color: var(--heo-card-bg) !important;
+    }
+    
+    #nav .menus_items .menus_item .menus_item_child > .recursion_menus_item > a {
+        letter-spacing: 0rem;
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        padding: 0.2rem 0.5rem;
+        width: 100%;
+        color: var(--heo-fontcolor) !important;
+        text-shadow: none !important;
+    }
+    
+    #page-header.nav-fixed #nav #menus[style*="padding-right: 300px;"] .menus_items {
+        transform: translateX(-150px);
+    }
+    
+    /* 传逝门 */
+    #travellings_button {
+        display: inline;
+        padding: 0 0.4rem;
+        transition: 0.3s;
     }
 }
 
@@ -5045,7 +5156,7 @@ html {
     padding: 0 0.4rem;
 }
 
-/* 无顶图时导航栝间�?? */
+/* 无顶图时导航栝间�?? */
 #page-header.no-top-img {
     margin-bottom: 0rem;
 }
@@ -5274,7 +5385,7 @@ html {
     }
 }
 
-/* 导航栝图�?? */
+/* 导航栝图�?? */
 #nav #site-name i {
     font-size: 50px;
     line-height: 35px;
@@ -5459,7 +5570,7 @@ html {
         align-items: center;
         z-index: 102;
         transition: 0.3s;
-        padding-top: 50px;
+        top: 50px;
         font-size: 35px;
         position: relative;
         left:70px ;
@@ -5479,7 +5590,7 @@ html {
 }
 
 
-/* 导航栝文�?? */
+/* 导航栝文�?? */
 @media screen and (min-width: 900px) {
     #nav #site-name {
         opacity: 1;
@@ -5660,7 +5771,7 @@ html {
     }
 }
 
-/* 音九播放�?? */
+/* 音九播放�?? */
 
 .aplayer.aplayer-narrow .aplayer-body,
 .aplayer.aplayer-narrow .aplayer-pic {
@@ -5668,7 +5779,7 @@ html {
     width: 66px;
 }
 
-/* 导航栝音�?? */
+/* 导航栝音�?? */
 @media screen and (max-width: 1200px) {
     #nav-music {
         display: none !important;
@@ -5990,7 +6101,7 @@ html {
     pointer-events: all;
 }
 
-/* 导航栝隝藝文�?? */
+/* 导航栝隝藝文�?? */
 /* #menus > div.menus_items > div > a > span{
   display: none;
 } */
@@ -6074,7 +6185,7 @@ i.fab {
     }
 }
 
-/* 导航栝按�?? */
+/* 导航栝按�?? */
 #nav a {
     transition: 0.3s;
 }
@@ -6162,7 +6273,7 @@ div#footer_deal {
     align-items: center;
 }
 
-/* 坤诗话坡�?? */
+/* 坤诗话坡�?? */
 #card-poem {
     display: flex;
     flex-direction: column;
@@ -6283,16 +6394,18 @@ img.footer_mini_logo:hover {
 @media screen and (max-width:1080px) {
     .shangyong {
         font-family: 'myfont';
-        color: #000;
+        color: #fff;
         font-size: 29px;
-        top: 100px;
-        right: 300px;
+        top: 130px;
+      
         position: relative;
     }
     .shangyong1{
         font-family: myfont;
-        font-size: 45px;
-        color:#000;
+        font-size: 40px;
+        color:#fff;
+        top: 20px;
+        position: relative;
     }
 }
 @media screen and (min-width:1080px) {
@@ -6308,69 +6421,8 @@ img.footer_mini_logo:hover {
         color:#fff;
     }
 }
-/* 导航栝居�?? */
-#nav #menus {
-    display: flex;
-    justify-content: center;
-    width: 998px;
-    position: absolute;
-    height: 60px;
-    background-image: url(../images/nav.png);
-    margin: auto;
-    flex-direction: row;
-    top: 220px;
-    left: 0px;
-}
+/* 导航栝居�?? */
 
-#nav .menus_items {
-    position: relative;
-    width: fit-content;
-    text-align: center;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-
-#menus > div.menus_items > div > a {
-    letter-spacing: 0.3rem;
-    padding-left: 0.7rem;
-    font-weight: bold;
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 40px;
-}
-
-.page #menus > div.menus_items > .menus_item:hover > a {
-    color: var(--heo-card-bg) !important;
-}
-
-#nav .menus_items .menus_item .menus_item_child > .recursion_menus_item > a {
-    letter-spacing: 0rem;
-    display: flex;
-    align-items: center;
-    border-radius: 100px;
-    padding: 0.2rem 0.5rem;
-    width: 100%;
-    color: var(--heo-fontcolor) !important;
-    text-shadow: none !important;
-}
-
-#page-header.nav-fixed #nav #menus[style*="padding-right: 300px;"] .menus_items {
-    transform: translateX(-150px);
-}
-
-/* 传逝门 */
-#travellings_button {
-    display: inline;
-    padding: 0 0.4rem;
-    transition: 0.3s;
-}
 
 @media screen and (max-width: 768px) {
     #page-header.nav-fixed #travellings_button {
@@ -6520,7 +6572,7 @@ a.console_switchbutton {
     }
 }
 
-/* 导航栝图标阴�?? */
+/* 导航栝图标阴�?? */
 #nav .site-page {
     text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0);
     border-radius: 8px;
@@ -6551,7 +6603,7 @@ a.console_switchbutton {
     color: var(--heo-fontcolor);
 }
 
-/* 导航栝坝称样�?? */
+/* 导航栝坝称样�?? */
 #nav #site-name {
     color: var(--heo-fontcolor);
   
@@ -6596,7 +6648,7 @@ body[data-type=music] .page #nav #site-name span {
     display: none;
 }
 
-/* 坳下角设置按钮间�?? */
+/* 坳下角设置按钮间�?? */
 #rightside {
     position: fixed;
     right: -48px;
@@ -6697,7 +6749,7 @@ body[data-type=music] .page #nav #site-name span {
 }
 
 
-/* footer背景�?? */
+/* footer背景�?? */
 #footer {
     background: linear-gradient(180deg, var(--heo-card-bg-none) 0%, var(--heo-card-bg) 25%);
     margin-top: 0.5rem;
@@ -6764,7 +6816,7 @@ body[data-type=music] .page #nav #site-name span {
     color: var(--heo-white);
 }
 
-/* 手机端蝜坕背�?? */
+/* 手机端蝜坕背�?? */
 #mobile-sidebar #mobile-sidebar-menus.open {
     background: var(--heo-maskbg);
 }
@@ -6773,7 +6825,7 @@ body[data-type=music] .page #nav #site-name span {
     transition: .3s;
 }
 
-/* 手机端导�?? */
+/* 手机端导�?? */
 #sidebar #sidebar-menus .site-data {
     margin: 1rem 0;
     padding: 0.6rem 0.5rem;
@@ -6819,7 +6871,7 @@ body[data-type=music] .page #nav #site-name span {
     display: none;
 }
 
-/* 进度�?? */
+/* 进度�?? */
 .pace {
     -webkit-pointer-events: none;
     pointer-events: none;
@@ -6884,7 +6936,7 @@ body[data-type=music] .page #nav #site-name span {
     top: -8px;
 }
 
-/* 进度条缓慢消�?? */
+/* 进度条缓慢消�?? */
 /* @keyframes hidetip {
   from {
     opcity: 1;
@@ -6914,7 +6966,7 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* �?? :has() 伪类判断card-widget是坦存在，进行属性覆�?? */
+/* �?? :has() 伪类判断card-widget是坦存在，进行属性覆�?? */
 /* 若存在，表明需覝和card-widget保挝距离 */
 @media screen and (min-width: 1300px) {
     #aside-content:has(+.card-widget) {
@@ -7080,7 +7132,7 @@ body[data-type=music] .page #nav #site-name span {
     }
 }
 
-/* 侧边栝按钮文�?? */
+/* 侧边栝按钮文�?? */
 a.card-archive-list-link-more {
     color: var(--heo-white) !important;
     background: var(--heo-card-btn-bg);
@@ -7178,7 +7230,7 @@ li.card-archive-list-item {
     text-align: center;
 }
 
-/* 侧边栝统�?? */
+/* 侧边栝统�?? */
 .webinfo-item {
     display: flex;
     white-space: nowrap;
@@ -7195,7 +7247,7 @@ li.card-archive-list-item {
     text-align: center;
 }
 
-/* 侧边栝酝�?? */
+/* 侧边栝酝�?? */
 @media screen and (min-width: 1300px) {
     #aside-content {
         padding-left: 1rem;
@@ -7409,7 +7461,7 @@ span.fund_name {
     align-content: center;
 }
 
-/* 微信公众�?? */
+/* 微信公众�?? */
 #aside-content .card-widget#card-wechat {
     background: #07C160;
     display: flex;
@@ -7432,7 +7484,7 @@ span.fund_name {
     align-content: center;
 }
 
-/* 微信公众坷翻�?? */
+/* 微信公众坷翻�?? */
 #flip-wrapper {
     position: relative;
     width: 235px;
@@ -7480,7 +7532,7 @@ span.fund_name {
     background-size: 100%;
 }
 
-/* 爱坑电赞�?? */
+/* 爱坑电赞�?? */
 #aside-content .card-widget.card-power {
     padding: .4rem .6rem !important
 }
@@ -7608,7 +7660,7 @@ div#power-star-title {
     color: var(--heo-white);
 }
 
-/* 开�?? */
+/* 开�?? */
 #widget-tree-button {
     background-color: var(--heo-secondbg) !important;
     box-shadow: var(--heo-shadow-light2black) !important;
@@ -7776,7 +7828,7 @@ div#power-star-title {
 }
 
 
-/* 主页导航栝让佝坝�?? */
+/* 主页导航栝让佝坝�?? */
 /* .layout_page .recent-posts{
   margin-top: 2em;
 }
@@ -7788,7 +7840,7 @@ div#power-star-title {
     width: calc(100% - 300px);
 }
 
-/* 当隝藝边栝时，显�?? 100% */
+/* 当隝藝边栝时，显�?? 100% */
 .layout.hide-aside > div:first-child {
     width: 100%;
 }
@@ -7804,7 +7856,7 @@ div#power-star-title {
         order: 2;
     }
 
-    /* 侧栝在左侧时，关闭左边距，打开坳边�?? */
+    /* 侧栝在左侧时，关闭左边距，打开坳边�?? */
     .layout.left-aside .aside-content {
         padding-right: 15px;
         padding-left: 0px !important;
@@ -8478,7 +8530,7 @@ a.categoryButton:hover {
     background-position: 100% 0;
 }
 
-/* 首页分类条展�?? */
+/* 首页分类条展�?? */
 #category-bar {
     padding: 0.4rem 1rem 0.4rem 0.7rem;
     background: var(--heo-card-bg);
@@ -9237,7 +9289,7 @@ ins.adsbygoogle {
     width: 100%;
 }
 
-/* 文章坡片图标与文字间�?? */
+/* 文章坡片图标与文字间�?? */
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap i {
     margin: 0 0.4rem 0 0;
 }
@@ -9562,7 +9614,7 @@ span.recent-post-top-text {
     will-change: transform
 }
 
-/* 图片在左�?? */
+/* 图片在左�?? */
 #recent-posts > .recent-post-item.left, .recent-post-item.alternate.odd {
     flex-direction: row !important;
 }
@@ -9571,7 +9623,7 @@ span.recent-post-top-text {
     border-radius: 12px 0px 0px 12px !important;
 }
 
-/* 图片在坳�?? */
+/* 图片在坳�?? */
 #recent-posts > .recent-post-item.right, .recent-post-item.alternate.even {
     flex-direction: row-reverse !important;
 }
@@ -9620,12 +9672,12 @@ span.recent-post-top-text {
 
     }
 
-    /* 2 �?? */
+    /* 2 �?? */
     #recent-posts > .recent-post-item.col2, #category #recent-posts .recent-post-item.col2, #tag #recent-posts .recent-post-item.col2 {
         width: calc(100% / 2 - .5rem);
     }
 
-    /* 3 �?? */
+    /* 3 �?? */
     #recent-posts > .recent-post-item.col3, #category #recent-posts .recent-post-item.col3, #tag #recent-posts .recent-post-item.col3 {
         width: calc(100% / 3 - .5rem);
     }
@@ -9644,7 +9696,7 @@ span.recent-post-top-text {
         animation: none
     }
 
-    /* 首页文章第一�?? */
+    /* 首页文章第一�?? */
     #recent-posts {
         display: flex;
         flex-wrap: wrap;
@@ -9670,7 +9722,7 @@ span.recent-post-top-text {
     position: relative
 }
 
-/* 主页坡片手机端美�?? */
+/* 主页坡片手机端美�?? */
 @media screen and (max-width: 768px) {
     #recent-posts > .recent-post-item {
         border-radius: 0;
@@ -9933,7 +9985,7 @@ span.recent-post-top-text {
     padding: 0 0.2rem 0 0;
 }
 
-/* 多分类兼容性调�?? */
+/* 多分类兼容性调�?? */
 #recent-posts > div > i .post_cover {
     display: none;
 }
@@ -10079,7 +10131,7 @@ span.recent-post-top-text {
             -webkit-line-clamp: 5 !important;
         }
 
-        /* 大文章高�?? */
+        /* 大文章高�?? */
         #recent-posts > .post-card-large {
             height: 20em !important;
         }
@@ -10124,12 +10176,12 @@ div#author-info__sayhi:hover {
     transform: scale(1.1)
 }
 
-/* 选中第一个坡片，与左侧元素对�?? */
+/* 选中第一个坡片，与左侧元素对�?? */
 #aside-content > .card-widget:first-child {
     margin-top: 0px;
 }
 
-/* 作者坡片背�?? */
+/* 作者坡片背�?? */
 #aside-content > .card-widget.card-info {
     transition: 0.3s;
     border: none;
@@ -10178,7 +10230,7 @@ div#author-info__sayhi:hover {
     }
 }
 
-/* 作者坡片杝�?? */
+/* 作者坡片杝�?? */
 #aside-content > div.card-widget.card-info > div > div.card-info-avatar.is-center > div.author-info__description {
     line-height: 1.38;
     margin: .3rem 0;
@@ -10190,7 +10242,7 @@ div#author-info__sayhi:hover {
     color: var(--heo-white);
 }
 
-/* 作者坡片杝�??2 */
+/* 作者坡片杝�??2 */
 .author-info__description2 {
     line-height: 1.38;
     margin: .3rem 0;
@@ -10240,7 +10292,7 @@ div#author-info__sayhi:hover {
     display: none;
 }
 
-/* 作者头�?? */
+/* 作者头�?? */
 #aside-content .card-info a img {
     border-radius: 0px;
     height: 200px;
@@ -10285,7 +10337,7 @@ div#author-info__sayhi:hover {
     transform: scale(1.03);
 }
 
-/* 作者文章列表链�?? */
+/* 作者文章列表链�?? */
 #aside-content > div.card-widget.card-info > div > div.card-info-data > div:nth-child() > a > div.headline {
     font-weight: bold;
 }
@@ -10400,7 +10452,7 @@ div#author-info__sayhi:hover {
 }
 
 
-/* 标签云坡�?? */
+/* 标签云坡�?? */
 #aside-content .card-tag-cloud a {
     color: var(--heo-fontcolor);
     font-size: 0.8rem;
@@ -10430,7 +10482,7 @@ div#author-info__sayhi:hover {
     }
 }
 
-/* 时间轴坡�?? */
+/* 时间轴坡�?? */
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover,
 #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover {
     color: var(--heo-card-bg);
@@ -10476,7 +10528,7 @@ a.extend.prev {
     display: none;
 }
 
-/* 文章�??
+/* 文章�??
 ---------------------------------------------------------------- */
 
 /* 文章头图 */
@@ -11012,7 +11064,7 @@ span.post-meta-pv-cv {
     margin-left: 0.8rem;
 }
 
-/* 微信公众坷坌�?? */
+/* 微信公众坷坌�?? */
 span.post-meta-wechat {
     margin-right: 10px;
     opacity: 0.6;
@@ -11055,7 +11107,7 @@ span.post-meta-position {
     font-weight: 800;
 }
 
-/* 文章信杯逝明�?? */
+/* 文章信杯逝明�?? */
 .post-meta-wordcount {
     opacity: 0.6;
     margin-right: 0.8rem
@@ -11097,7 +11149,7 @@ span.post-meta-position {
     margin-right: 0.5rem;
 }
 
-/* 文章内图片保挝一�?? */
+/* 文章内图片保挝一�?? */
 .inline-image {
     display: flex;
     margin: 8px auto;
@@ -11168,7 +11220,7 @@ span.post-meta-position {
     line-height: 1
 }
 
-/* 文章标题剝图�?? */
+/* 文章标题剝图�?? */
 #article-container h1:before,
 #article-container h2:before,
 #article-container h3:before,
@@ -11179,7 +11231,7 @@ span.post-meta-position {
     content: '';
 }
 
-/* 文章标题剝图标悬�?? */
+/* 文章标题剝图标悬�?? */
 #article-container h1:hover:before,
 #article-container h2:hover:before,
 #article-container h3:hover:before,
@@ -11391,12 +11443,12 @@ details[open]:not(.tk-admin-config-group):not(.card-friend-class-name) > summary
     }
 }
 
-/* 文章点样�?? */
+/* 文章点样�?? */
 #article-container ul > li:not(.tab):hover:before {
     border-color: var(--heo-none);
 }
 
-/* 文章中的超链�?? */
+/* 文章中的超链�?? */
 #article-container a {
     text-decoration: none;
     border-bottom: 2px dotted var(--heo-main);
@@ -11632,7 +11684,7 @@ blockquote p {
 }
 
 
-/* 文章内标�?? */
+/* 文章内标�?? */
 #article-container .headerlink::before {
     content: "\e621";
     font-family: haofont !important;
@@ -11682,7 +11734,7 @@ blockquote p {
     border-radius: 12px !important;
 }
 
-/* 文章数字�?? */
+/* 文章数字�?? */
 #article-container ol li:before,
 #article-container ul li:before {
     background: var(--heo-main);
@@ -11929,7 +11981,7 @@ blockquote p {
     -webkit-box-orient: vertical;
 }
 
-/* 装饰�?? */
+/* 装饰�?? */
 #post .post-copyright:before {
     display: none;
 }
@@ -12031,8 +12083,8 @@ a.reward-main-btn:hover {
 }
 
 
-/* 接下来下一�?? */
-/* 接下来下一�?? */
+/* 接下来下一�?? */
+/* 接下来下一�?? */
 .next-post.pull-right,
 .prev-post.pull-left,
 #pagination .prev-post,
@@ -12474,7 +12526,7 @@ a.reward-main-btn:hover {
     color: var(--heo-white);
 }
 
-/* 分割�?? */
+/* 分割�?? */
 #post > hr {
     display: none;
 }
@@ -12591,10 +12643,10 @@ img.tk-avatar-img {
     margin-right: 0.5rem !important;
 }
 
-/* 评论输入框杝�?? */
-/* 设置文字内容 :nth-child(1)的作用是选择第几�?? */
+/* 评论输入框杝�?? */
+/* 设置文字内容 :nth-child(1)的作用是选择第几�?? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
-    content: '输入QQ坷会自动获坖昵称和头�??';
+    content: '输入QQ坷会自动获坖昵称和头�??';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
@@ -12605,7 +12657,7 @@ img.tk-avatar-img {
     content: '坯以通过昵称访问你的网站';
 }
 
-/* 当用户点击输入框时显�?? */
+/* 当用户点击输入框时显�?? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before {
     display: block;
     animation: commonTipsIn 0.3s;
@@ -12642,13 +12694,13 @@ img.tk-avatar-img {
 
 /* 主内容区 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend::before {
-    /* 先隝藝起�?? */
+    /* 先隝藝起�?? */
     display: none;
     /* 绝对定佝 */
     position: absolute;
     /* 坑上移动55僝素 */
     top: -55px;
-    /* 文字强制丝杢行，防止left:50%导致的文字杢�?? */
+    /* 文字强制丝杢行，防止left:50%导致的文字杢�?? */
     white-space: nowrap;
     /* 圆角 */
     border-radius: 10px;
@@ -12663,12 +12715,12 @@ img.tk-avatar-img {
     z-index: 100;
 }
 
-/* 尝角�?? */
+/* 尝角�?? */
 .el-input.el-input--small.el-input-group.el-input-group--prepend::after {
     display: none;
     content: '';
     position: absolute;
-    /* 内容大尝（宽高）�??0且边框大尝丝�??0的情况下，毝一条边�??4个边）都是一个三角形，组戝一个正方形�??
+    /* 内容大尝（宽高）�??0且边框大尝丝�??0的情况下，毝一条边�??4个边）都是一个三角形，组戝一个正方形�??
   我们先将所有边框逝明，冝给其中的一条边添加颜色就坯以实现尝三角图标 */
     border: 15px solid transparent;
     border-top-color: #444;
@@ -12682,7 +12734,7 @@ img.tk-avatar-img {
     line-height: 32px;
 }
 
-/* 填写项标�?? */
+/* 填写项标�?? */
 .el-input-group__append, .el-input-group__prepend {
     background-color: var(--heo-card-bg) !important;
     color: var(--heo-fontcolor) !important;
@@ -12691,7 +12743,7 @@ img.tk-avatar-img {
     font-weight: 700
 }
 
-/* 输入�?? */
+/* 输入�?? */
 .el-input__inner {
     background: var(--heo-secondbg) !important;
     border: none !important;
@@ -12732,7 +12784,7 @@ img.tk-avatar-img {
     border: none !important
 }
 
-/* 评论输入�?? */
+/* 评论输入�?? */
 .el-textarea__inner {
     background: var(--heo-secondbg) !important;
     color: var(--heo-fontcolor) !important;
@@ -12775,12 +12827,12 @@ img.tk-avatar-img {
     font-size: 1.0rem;
 }
 
-/* 加载时背景颜�?? */
+/* 加载时背景颜�?? */
 .el-loading-mask {
     background-color: none !important;
 }
 
-/* 所有标�?? */
+/* 所有标�?? */
 .tk-tag {
     transform: translateY(-2px);
 }
@@ -12847,7 +12899,7 @@ img.tk-avatar-img {
     color: var(--heo-secondtext);
 }
 
-/* 点赞和评�?? */
+/* 点赞和评�?? */
 .tk-action-link {
     color: var(--heo-lighttext) !important;
 }
@@ -12867,7 +12919,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     display: none;
 }
 
-/* 坑逝按钮正常状�?? */
+/* 坑逝按钮正常状�?? */
 .tk-comments .el-button--primary {
     border-color: var(--heo-fontcolor) !important;
     color: var(--heo-card-bg) !important;
@@ -12882,7 +12934,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     height: 32px
 }
 
-/* 坑逝按钮禝用状�?? */
+/* 坑逝按钮禝用状�?? */
 .tk-comments .el-button--primary.is-disabled,
 .tk-comments .el-button--primary.is-disabled:active,
 .tk-comments .el-button--primary.is-disabled:focus,
@@ -13084,7 +13136,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
     margin-left: 0.5rem;
 }
 
-/* 评论之间的间�?? */
+/* 评论之间的间�?? */
 .tk-comments-container > .tk-comment {
     margin-top: 0rem !important;
     margin-bottom: 0.5rem !important;
@@ -13471,7 +13523,7 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 }
 
 
-/* 文章列表�?? */
+/* 文章列表�?? */
 /* ---------------------------------------------------------------- */
 /* 标题 */
 #page .category-lists .category-title {
@@ -13650,7 +13702,7 @@ span.tags-punctuation::before {
     padding-left: 0rem;
 }
 
-/* 分类�?? */
+/* 分类�?? */
 #article-container > div > figure > figcaption > p {
     margin: 0;
 }
@@ -13685,12 +13737,12 @@ figure.gallery-group {
     border-radius: 12px;
 }
 
-/* 分类分割线隝�?? */
+/* 分类分割线隝�?? */
 figure.gallery-group:hover .gallery-group-name::after {
     display: none;
 }
 
-/* 标签详情页标�?? */
+/* 标签详情页标�?? */
 .tag-cloud-title {
     display: none;
 }
@@ -13754,7 +13806,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     box-shadow: var(--heo-shadow-theme);
 }
 
-/* 时间�?? */
+/* 时间�?? */
 .article-sort-item:before {
     display: none;
 }
@@ -13956,7 +14008,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 悬浮状思头�?? */
+/* 悬浮状思头�?? */
 .flink#article-container .flink-list > .flink-list-item:hover a img {
     transition: 0.6s;
     width: 0;
@@ -13990,7 +14042,7 @@ figure.gallery-group:hover .gallery-group-name::after {
 }
 
 
-/* 标题和杝�?? */
+/* 标题和杝�?? */
 .flink#article-container .flink-list > .flink-list-item a span {
     transition: 0.3s;
 }
@@ -14254,7 +14306,7 @@ figure.gallery-group:hover .gallery-group-name::after {
     text-overflow: ellipsis;
 }
 
-/* 新页�?? */
+/* 新页�?? */
 
 @media screen and (max-width: 768px) {
     #letlink {
@@ -14909,7 +14961,7 @@ div#heo-footer-bar .footer-bar-description {
     box-shadow: var(--heo-shadow-blue);
 }
 
-/* 坋链朋坋�?? */
+/* 坋链朋坋�?? */
 
 #hexo-circle-of-friends-root {
     margin: 0 -8px;
@@ -15006,7 +15058,7 @@ a.bb-link-info:hover {
     display: none;
 }
 
-/* 朋坋圈页�?? */
+/* 朋坋圈页�?? */
 
 #friend_moments_list .moments-sort-item {
     margin: 1rem 0;
@@ -15254,7 +15306,7 @@ span.hexo-douban-pagenum {
     border-bottom: var(--style-border) !important;
 }
 
-/* 标签�?? */
+/* 标签�?? */
 /* 隝藝时间 */
 .article-sort-item-time {
     display: none;
@@ -15443,7 +15495,7 @@ span.hexo-douban-pagenum {
     height: 0.9rem;
 }
 
-/* about关于�?? */
+/* about关于�?? */
 .la-widget.la-data-widget__container {
     border-radius: 12px;
     border: var(--style-border) !important;
@@ -15608,7 +15660,7 @@ span.hexo-douban-pagenum {
     white-space: nowrap;
 }
 
-/* 一行内�?? */
+/* 一行内�?? */
 
 .author-content {
     display: flex;
@@ -15952,7 +16004,7 @@ span.hexo-douban-pagenum {
 }
 
 
-/* 关于页面打招呼信�?? */
+/* 关于页面打招呼信�?? */
 
 #about-page .myInfoAndSayHello {
     display: flex;
@@ -16123,7 +16175,7 @@ span.hexo-douban-pagenum {
     }
 }
 
-/* 关于页面座坳�?? */
+/* 关于页面座坳�?? */
 
 .author-content-item.maxim {
     font-size: 36px;
@@ -16184,7 +16236,7 @@ span.hexo-douban-pagenum {
     margin-bottom: 0.5rem;
 }
 
-/* 关于页面我的技�?? */
+/* 关于页面我的技�?? */
 .author-content-item.skills {
     display: flex;
     justify-content: center;
@@ -16598,7 +16650,7 @@ span.hexo-douban-pagenum {
     display: none;
 }
 
-/* 喜欢的游�?? lol */
+/* 喜欢的游�?? lol */
 .author-content-item.game-lol {
     background: url(https://img.zhheo.com/i/2022/08/31/630efa7ae39fe.webp) no-repeat top;
     background-size: cover;
@@ -16744,7 +16796,7 @@ span.hexo-douban-pagenum {
     background: url('https://img.zhheo.com/i/2022/08/25/63074b54d2731.png');
 }
 
-/* 喜欢的游�?? 狼人杀 */
+/* 喜欢的游�?? 狼人杀 */
 .author-content-item.game-wolf {
     width: 39%;
     background: url(https://img.zhheo.com/i/2022/08/31/630efa916a851.webp) no-repeat top;
@@ -17046,7 +17098,7 @@ span.hexo-douban-pagenum {
     margin-top: 0;
 }
 
-/* 中控�?? */
+/* 中控�?? */
 #console {
     display: flex;
     position: fixed;
@@ -17501,7 +17553,7 @@ span.hexo-douban-pagenum {
 }
 
 
-/* 快杷键窗�?? */
+/* 快杷键窗�?? */
 #keyboard-tips {
     position: fixed;
     top: 80px;
@@ -17715,7 +17767,7 @@ img.rss-plan-icon {
 }
 
 
-/* 分页杜索�?? */
+/* 分页杜索�?? */
 .pagination input {
     width: 40px;
     height: 40px;
@@ -17805,7 +17857,7 @@ code:not([class]) {
 }
 
 
-/*   导航栝中间返回顶部样�?? */
+/*   导航栝中间返回顶部样�?? */
 #page-header.nav-fixed #nav #page-name-text {
     display: inline;
     opacity: 1;
@@ -17855,7 +17907,7 @@ code:not([class]) {
 }
 
 
-/* 导航栝中间样�?? */
+/* 导航栝中间样�?? */
 #menus > div.menus_items a {
     font-size: 16.8px;
     font-weight: 700;
