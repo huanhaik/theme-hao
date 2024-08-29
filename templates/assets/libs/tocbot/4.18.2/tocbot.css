@@ -12636,7 +12636,7 @@ pre > code::before {
         font-size: small;
     }
     .foot_nav{
-       
+       margin: 0 20px 20px;
     }
     .footer.footer--fixed {
         bottom: 0;
@@ -12771,7 +12771,8 @@ pre > code::before {
     }
     
     .contact ul {
-       display: table;
+        display: -webkit-inline-box;
+       margin: auto;
     }
     
     .contact .contact__title {
@@ -12823,6 +12824,7 @@ pre > code::before {
     }
     .erweima{
         width: 100px;
+        margin: auto;
     }
     .contact.contact--fixed {
         bottom: 0;
@@ -12835,6 +12837,7 @@ pre > code::before {
         text-align: justify;
         font-size: 15px;
         font-size: smaller;
+        margin: inherit;
     }
     
     .contact ul {
