@@ -112,6 +112,23 @@
                      <a style="color: #ffffff;" class="u u-C" href="#">
                         网站声明
                         </a> 
+                        <a th:if="${not #strings.isEmpty(theme.config.basics.icp) && theme.config.footer.footerContent.default_enable_group.icp_icon}"
+                        class="footer-banner-link" href="https://beian.miit.gov.cn/#/Integrated/index"
+                        rel="noopener external nofollow noreferrer noopener"
+                        target="_blank">
+                         <span style="color: #ffffff;" class="u u-C" th:if="${not #strings.startsWith(theme.config.basics.icp, 'http')}">[[${theme.config.basics
+                             .icp}]]</span>
+                         <img th:if="${#strings.startsWith(theme.config.basics.icp, 'http')}"
+                              th:src="@{${theme.config.basics.icp}}" alt="icp"/>
+                     </a>
+                     <a th:if="${not #strings.isEmpty(theme.config.basics.gongan) && theme.config.footer.footerContent.default_enable_group.gongwangan}"
+                     class="footer-banner-link" href="http://www.beian.gov.cn/portal/registerSystemInfo"
+                     rel="noopener external nofollow noreferrer noopener"
+                     target="_blank">
+                      <span style="color: #ffffff;" class="u u-C" th:if="${not #strings.startsWith(theme.config.basics.gongan, 'http')}">[[${theme.config.basics.gongan}]]</span>
+                      <img th:if="${#strings.startsWith(theme.config.basics.gongan, 'http')}"
+                           th:src="@{${theme.config.basics.gongan}}" alt="gongan"/>
+                  </a>
                 </div>
             </div>
             
