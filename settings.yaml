@@ -440,7 +440,7 @@ spec:
             todayRecommendContent:
               todayRecommendUrl: /
               todayRecommendTitle: Halo-Theme-Hao
-              todayRecommendCover: https://liuzhihang.com/upload/hao_dark.jpg
+              todayRecommendCover: 
               todayRecommendxTitle: 今日推荐
             recommendPost: latest
           children:
@@ -484,7 +484,7 @@ spec:
                   name: todayRecommendCover
                   label: 背景图
                   placeholder: 请输入地址
-                  value: https://liuzhihang.com/upload/hao_dark.jpg
+                  value: 
             - $formkit: select
               name: recommendPost
               id: recommendPost
@@ -1448,14 +1448,14 @@ spec:
           label: 社交媒体
           value:
             socialMediaLeft:
-            centerImg: https://liuzhihang.com/upload/logo.png
+            centerImg: 
             socialMediaRight:
           children:
             - $formkit: attachment
               name: centerImg
               label: 中间 logo
               placeholder: 请填写 logo 图片地址
-              value: https://liuzhihang.com/upload/logo.png
+              value: 
             - $formkit: repeater
               name: socialMediaLeft
               label: 左侧
@@ -1546,6 +1546,7 @@ spec:
               zhuti: true
               about: true
               icp_icon: true
+              enable_busuanzi: true
               gongwangan: true
               yingsi: true
               yunzhichi: false
@@ -1628,6 +1629,15 @@ spec:
                       value: true
                     - label: 隐藏
                       value: false
+                - $formkit: radio
+                  name: enable_busuanzi
+                  label: 展示访问量数据
+                  value: true
+                  options:
+                    - value: true
+                      label: 是
+                    - value: false
+                      label: 否      
                 - $formkit: radio
                   if: $get(default_enable).value
                   name: gongwangan
@@ -2055,7 +2065,7 @@ spec:
         - $formkit: attachment
           name: backgroundImg
           label: 背景图
-          value: https://liuzhihang.com/upload/moments.png
+          value: 
           placeholder: 请输入图片地址
         - $formkit: text
           name: smallTitle
@@ -2154,7 +2164,7 @@ spec:
           key: backgroundImg
           id: backgroundImg
           label: 背景图
-          value: https://liuzhihang.com/upload/moments.png
+          value: 
           placeholder: 请输入图片地址
 
     - group: todo
@@ -2203,7 +2213,7 @@ spec:
         - $formkit: attachment
           name: backgroundImg
           label: 背景图
-          value: https://liuzhihang.com/upload/moments.png
+          value: 
           placeholder: 请输入图片地址
         - $formkit: text
           name: smallTitle
@@ -2445,7 +2455,7 @@ spec:
         - $formkit: attachment
           name: authorCareersPhoto
           label: 图片
-          value: https://liuzhihang.com/upload/recommend.png
+          value: 
         - $formkit: repeater
           name: textarea
           label: 文本块
@@ -3531,7 +3541,7 @@ spec:
           label: 加载动画
           value:
             loadingBoxEnable: true
-            loadingBoxImg: https://liuzhihang.com/upload/logo.png
+            loadingBoxImg: 
             loadProgressBar: true
           children:
             - $formkit: radio

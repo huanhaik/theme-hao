@@ -268,75 +268,6 @@ document.addEventListener('DOMContentLoaded', function () {
     /**
      * 滾動處理
      */
-    const scrollFn = function () {
-        const $postComment = document.getElementById('post-comment')
-        const $rightside = document.getElementById('rightside')
-        const innerHeight = window.innerHeight + 0
-
-        if ($postComment) {
-            $('#to_comment').attr('style', 'display: block');
-        } else {
-            $('#to_comment').attr('style', 'display: none');
-        }
-
-        // 當滾動條小于 0 的時候
-        if (document.body.scrollHeight <= innerHeight) {
-            $rightside.style.cssText = 'opacity: 1; transform: translateX(-58px)'
-            return
-        }
-
-        let initTop = 0
-        let isChatShow = true
-        const $header = document.getElementById('page-header')
-        const $gulitop = document.getElementById('guli_top')
-        const $cookies_window = document.getElementById('cookies-window')
-        const isChatBtnHide = typeof chatBtnHide === 'function'
-        const isChatBtnShow = typeof chatBtnShow === 'function'
-        window.addEventListener('scroll', btf.throttle(function (e) {
-            const currentTop = window.scrollY || document.documentElement.scrollTop
-            const isDown = scrollDirection(currentTop)
-            if (currentTop > 0) {
-                if (isDown) {
-                    if ($header.classList.contains('')) $header.classList.remove('')
-                    if (isChatBtnShow && isChatShow === true) {
-                        chatBtnHide()
-                        isChatShow = false
-                    }
-                } else {
-                    if (!$header.classList.contains('')) $header.classList.add('')
-                    if (isChatBtnHide && isChatShow === false) {
-                        chatBtnShow()
-                        isChatShow = true
-                    }
-                }
-
-
-                $header.classList.add('')
-                if($cookies_window!=null && $cookies_window!=''){
-                    $cookies_window.classList.add('cw-hide')
-                }
-                if (window.getComputedStyle($rightside).getPropertyValue('opacity') === '0') {
-                    $rightside.style.cssText = 'opacity: 0.8; transform: translateX(-58px)'
-                }
-            } else {
-                if (currentTop === 0) {
-                    $header.classList.remove('', '')
-                }
-                $rightside.style.cssText = ""
-            }
-
-            if (document.body.scrollHeight <= innerHeight) {
-                $rightside.style.cssText = ''
-            }
-        }, 200))
-
-        // find the scroll direction
-        function scrollDirection (currentTop) {
-            const result = currentTop > initTop // true is down & false is up
-            initTop = currentTop
-            return result
-        }
-    }
 
     /**
      * menu
@@ -558,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         sidebarFn()
         GLOBAL_CONFIG.isHome && scrollDownInIndex()
-        scrollFn()
+       
         addTableWrap()
         clickFnOfTagHide()
         tabsFn.clickFnOfTabs()

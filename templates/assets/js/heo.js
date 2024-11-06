@@ -63,15 +63,7 @@ var heo = {
 
 
     //监测是否在页面开头
-    addNavBackgroundInit: function() {
-        var e = 0
-            , t = 0;
-        document.body && (e = document.body.scrollTop),
-        document.documentElement && (t = document.documentElement.scrollTop),
-        0 != (e - t > 0 ? e : t) && (document.getElementById("page-header").classList.add(""),
-            document.getElementById("page-header").classList.add(""),
-            $("#cookies-window").hide())
-    },
+ 
 
     tagPageActive: function() {
         var e = window.location.pathname;

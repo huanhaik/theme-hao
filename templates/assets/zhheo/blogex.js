@@ -590,7 +590,7 @@ function initBlog() {
         //右下角 snackbar 弹窗
     GLOBAL_CONFIG.source.tool.switch && heo.hidecookie(),
         heo.onlyHome(),
-        heo.addNavBackgroundInit(),
+    
         heo.initIndexEssay(),
         heo.reflashEssayWaterFall(),
         heo.darkModeStatus(),
