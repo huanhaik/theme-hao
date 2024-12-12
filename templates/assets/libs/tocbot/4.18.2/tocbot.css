@@ -12628,7 +12628,7 @@ pre > code::before {
 /* FOOTER */
 @media screen and (max-width:1080px) {
     .footer {
-        background-image: url(../../../images/footer.png);
+        background-image: url(../../../images/footer.jpeg);
         
         text-align: center;
         width: 100%;
@@ -12685,7 +12685,7 @@ pre > code::before {
 }
 @media screen and (min-width:1080px) {
     .footer {
-        background-image: url(../../../images/footer.png);
+        background-image: url(../../../images/footer.jpeg);
     
     text-align: center;
     width: 100%;
@@ -12743,7 +12743,7 @@ pre > code::before {
 }
 @media screen and (max-width:1080px) {
     .contact {
-        background-image: url(../../../images/contact.png);
+        background-image: url(../../../images/contact.jpeg);
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;
@@ -12809,7 +12809,7 @@ pre > code::before {
 }
 @media screen and (min-width:1080px) {
     .contact {
-        background-image: url(../../../images/contact.png);
+        background-image: url(../../../images/contact.jpeg);
         padding: 5px 0 10px 0;
         text-align: center;
         width: 100%;

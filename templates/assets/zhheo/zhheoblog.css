@@ -2540,7 +2540,7 @@ blockquote footer cite::before {
         background: 0px center;
         bottom: 60px;
         margin: auto;
-        background-image: url(../images/header.png);
+        background-image: url(../images/header.jpeg);
     }
     
     #page-header.not-top-img #nav {
@@ -2558,7 +2558,7 @@ blockquote footer cite::before {
         margin-bottom: 0.5rem;
         height: 260px;
       
-        background-image: url(../images/header.png);
+        background-image: url(../images/header.jpeg);
       
           
         width: 998px;  
@@ -4986,7 +4986,7 @@ html {
         width: 998px;
         position: absolute;
         height: 60px;
-        background-image: url(../images/nav.png);
+        background-image: url(../images/nav.jpeg);
         margin: auto;
         flex-direction: row;
         top: 220px;
@@ -5050,7 +5050,7 @@ html {
         width: calc(100%);
         position: absolute;
         height: 60px;
-        background-image: url(../images/nav.png);
+        background-image: url(../images/nav.jpeg);
         margin: auto;
         flex-direction: row;
         top: 270px;
